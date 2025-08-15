@@ -1,0 +1,15 @@
+drwxr-xr-x    7 n0o5e6r4   n0o5e6r4         4096 Sep 25  2018 .
+drwxr-xr-x   11 n0o5e6r4   n0o5e6r4         4096 Sep 25  2018 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4       211319 Sep 25  2018 CHANGES.md
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        76253 Sep 25  2018 LICENSE.md
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1361 Sep 25  2018 README.md
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Sep 25  2018 adapters
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         3441 Sep 25  2018 build-config.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4       696173 Sep 25  2018 ckeditor.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          590 Sep 27  2018 config.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         2886 Sep 25  2018 contents.css
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Sep 25  2018 lang
+drwxr-xr-x   30 n0o5e6r4   n0o5e6r4         4096 Sep 25  2018 plugins
+drwxr-xr-x    7 n0o5e6r4   n0o5e6r4         4096 Sep 25  2018 samples
+drwxr-xr-x    3 n0o5e6r4   n0o5e6r4         4096 Sep 25  2018 skins
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         5442 Sep 25  2018 styles.js

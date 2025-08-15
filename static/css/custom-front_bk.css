@@ -1,0 +1,298 @@
+/* Important styles */
+.menu-box{
+	position: absolute;
+    width: 100%;
+	text-align: center !important;
+}
+#toggle {
+  display: inline-block;
+	color: #d63737;
+  height: 30px;
+  margin: 0px auto 0px;
+	text-align: left !important;
+	text-decoration: none;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: inline-block;
+	width: 30px !important;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #d63737;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* menu appearance*/
+#menu {
+  position: absolute;
+  color: #FFF;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  background: #222;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .4s;
+	left: 0;
+	right: 0;
+	top: 60px;
+}
+/*#menu:after {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #0575E6;
+}*/
+#menu ul, li, li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#menu li a {
+  padding: 5px;
+  color: #888;
+  text-decoration: none;
+  transition: all .2s;
+}
+#menu li a:hover,
+li a:focus {
+  background: #FFF;
+  color: #d63737;
+}
+
+.input-color .color-box {
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+}
+.subnav{
+	background-color: #ededed;
+	padding: 15px 0px;
+}
+.subnav ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.subnav ul li{
+	display: inline-block;
+	float: none;
+	border-right: rgba(0,0,0,0.1) solid 1px; 
+	margin: 0px;
+}
+
+.subnav ul li:nth-last-child(-2n+1){
+	border-right: 0px;
+}
+.subnav ul li a{
+	padding: 0px 20px;
+	font-size: 16px;
+	color: #000;
+	position: relative;
+}
+.subnav ul li a.active:after{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ededed;
+  left: 50%;
+  position: absolute;
+  top: 38px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.subnav ul li a:hover{
+	color: #d63737;
+	text-decoration: none;
+	background: none;
+}
+.package-listing{}
+.package-listing ul{
+	margin: 0px;
+	padding: 0px;
+}
+.package-listing ul li{
+	list-style: none;
+	background: #ededed;
+	padding: 10px 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.package-listing ul li.active{
+	list-style: none;
+	background: #0575E6;
+	color: #FFF;
+}
+.package-listing ul li.active a{
+	color:#FFF;
+}
+.package-listing ul li h6{
+	border-right: #ccc solid 1px;
+	display: inline-block;
+	width: 70%;
+}
+.package-listing ul li a.m-btn-theme{
+	float: right;
+	height: auto;
+	line-height: 30px;
+	padding: 0 20px;
+}
+.price-tag{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.custom-tabs{}
+.custom-tabs .nav-tabs{
+	justify-content: center;
+	
+}
+.custom-tabs .nav-tabs .nav-link{
+	border:0px;
+	color: #555;
+	font-size: 18px;
+}
+.custom-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0575E6 !important;
+    background: none;
+	border: 0px;
+    border-bottom:  #0575E6 solid 3px;
+}
+.price-box{
+	font-size: 30px;
+	text-align: center;
+	min-height: 40px;
+	margin: 6.5px 0;
+}
+.border-right{
+	border-right: 1px solid rgba(0,0,0,.2);
+}
+
+.control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+label.control {
+	margin-bottom: 0px !important;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+.control input:checked ~ .control__indicator {
+  background: #d63737;
+}
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background: #d63737;
+}
+.control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #7b7b7b;
+}
+.control--radio .control__indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+.control--radio input:disabled ~ .control__indicator:after {
+  background: #7b7b7b;
+}
+
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to top, rgb(29, 36, 42) 15%, rgba(0, 0, 0, 0) 100%);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}

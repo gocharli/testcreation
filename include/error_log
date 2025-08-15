@@ -1,0 +1,73 @@
+[12-Dec-2018 18:43:24 America/Chicago] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Invalid positive integer in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php:110 from API request 'req_IzoMWM4LKW7EoN'
+Stack trace:
+#0 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/Charge.php(74): Stripe\ApiResource::_create(Array, NULL)
+#5 /home2/n0o5e6r4/danquahprep.com/include/checkout.php(23): Stripe\Charge::create(Array)
+#6 {main}
+  thrown in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php on line 110
+[12-Dec-2018 18:43:33 America/Chicago] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: You cannot use a Stripe token more than once: tok_1DgiINDeriUoU3nC2cdWr3aX. in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php:110 from API request 'req_6ksTJVR6oJ0z2T'
+Stack trace:
+#0 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/Customer.php(60): Stripe\ApiResource::_create(Array, NULL)
+#5 /home2/n0o5e6r4/danquahprep.com/include/checkout.php(17): Stripe\Customer::create(Array)
+#6 in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php on line 110
+[12-Dec-2018 18:43:51 America/Chicago] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: You cannot use a Stripe token more than once: tok_1DgiINDeriUoU3nC2cdWr3aX. in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php:110 from API request 'req_A5agEOTY3xFLuk'
+Stack trace:
+#0 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/Customer.php(60): Stripe\ApiResource::_create(Array, NULL)
+#5 /home2/n0o5e6r4/danquahprep.com/include/checkout.php(17): Stripe\Customer::create(Array)
+#6 in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php on line 110
+[12-Dec-2018 18:45:24 America/Chicago] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Invalid positive integer in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php:110 from API request 'req_qJ5m01uVJp9qrM'
+Stack trace:
+#0 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/Charge.php(74): Stripe\ApiResource::_create(Array, NULL)
+#5 /home2/n0o5e6r4/danquahprep.com/include/checkout.php(23): Stripe\Charge::create(Array)
+#6 {main}
+  thrown in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php on line 110
+[12-Dec-2018 18:57:05 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[12-Dec-2018 18:58:00 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[12-Dec-2018 19:11:36 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[12-Dec-2018 19:13:15 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[15-Dec-2018 13:16:05 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[15-Dec-2018 13:16:54 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[15-Dec-2018 13:20:27 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[15-Dec-2018 13:24:05 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[15-Dec-2018 13:27:42 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[15-Dec-2018 13:27:52 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[15-Dec-2018 13:28:08 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[15-Dec-2018 13:28:14 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[24-Mar-2019 15:48:41 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/n0o5e6r4/danquahprep.com/include/post_func.php on line 1775
+[31-Mar-2019 07:25:25 America/Chicago] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: Invalid positive integer in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php:110
+Stack trace:
+#0 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/Charge.php(74): Stripe\ApiResource::_create(Array, NULL)
+#5 /home2/n0o5e6r4/danquahprep.com/include/checkout.php(23): Stripe\Charge::create(Array)
+#6 {main}
+  thrown in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php on line 110
+[31-Mar-2019 07:25:37 America/Chicago] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: You cannot use a Stripe token more than once: tok_1EK2izDeriUoU3nC41VGic0R. in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php:110
+Stack trace:
+#0 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/Customer.php(60): Stripe\ApiResource::_create(Array, NULL)
+#5 /home2/n0o5e6r4/danquahprep.com/include/checkout.php(17): Stripe\Customer::create(Array)
+#6 {main}
+  thrown in /home2/n0o5e6r4/danquahprep.com/stripe-php/lib/ApiRequestor.php on line 110
+[29-Apr-2019 06:26:31 America/Chicago] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Apr-2019 06:26:31 America/Chicago] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0

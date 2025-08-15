@@ -1,0 +1,10 @@
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 .
+drwxr-xr-x    6 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          311 Jul  5  2018 aliases.yml
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          266 Jul  5  2018 clean.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          548 Jul  5  2018 copy.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          560 Jul  5  2018 jasmine.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          609 Jul  5  2018 jshint.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          377 Jul  5  2018 sass.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          484 Jul  5  2018 uglify.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          595 Jul  5  2018 umd.js

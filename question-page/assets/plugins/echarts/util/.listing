@@ -1,0 +1,17 @@
+drwxr-xr-x    5 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 .
+drwxr-xr-x    3 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         2713 Dec  2  2017 accMath.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          990 Dec  2  2017 coordinates.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         5936 Dec  2  2017 date.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        19095 Dec  2  2017 ecAnimation.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         3341 Dec  2  2017 ecData.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        16567 Dec  2  2017 ecEffect.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         2497 Dec  2  2017 ecQuery.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1740 Dec  2  2017 kwargs.js
+drwxr-xr-x    4 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 mapData
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        71383 Dec  2  2017 ndarray.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         2447 Dec  2  2017 number.js
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 projection
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 shape
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        16070 Dec  2  2017 smartLogSteps.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        22990 Dec  2  2017 smartSteps.js

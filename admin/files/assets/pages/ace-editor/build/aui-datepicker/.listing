@@ -1,0 +1,12 @@
+drwxr-xr-x    3 n0o5e6r4   n0o5e6r4         4096 Jun 24  2018 .
+drwxr-xr-x  333 n0o5e6r4   n0o5e6r4        16384 Jun 24  2018 ..
+drwxr-xr-x    3 n0o5e6r4   n0o5e6r4         4096 Jun 24  2018 assets
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         5371 Jan 20  2018 aui-datepicker-base-debug.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1569 Jan 20  2018 aui-datepicker-base-min.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         5371 Jan 20  2018 aui-datepicker-base.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        28036 Jan 20  2018 aui-datepicker-debug.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         8128 Jan 20  2018 aui-datepicker-min.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        22536 Jan 20  2018 aui-datepicker-select-debug.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         6438 Jan 20  2018 aui-datepicker-select-min.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        22536 Jan 20  2018 aui-datepicker-select.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        28036 Jan 20  2018 aui-datepicker.js

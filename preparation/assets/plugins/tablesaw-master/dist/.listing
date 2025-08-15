@@ -1,0 +1,8 @@
+drwxr-xr-x    5 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 .
+drwxr-xr-x    7 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 ..
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 bare
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 dependencies
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 stackonly
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          390 Jul  5  2018 tablesaw-init.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        15722 Jul  5  2018 tablesaw.css
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        34777 Jul  5  2018 tablesaw.js

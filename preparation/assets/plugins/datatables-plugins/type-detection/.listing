@@ -1,0 +1,10 @@
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 .
+drwxr-xr-x   10 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1143 Jul  5  2018 currency.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          448 Jul  5  2018 date-uk.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          884 Jul  5  2018 file-size.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          902 Jul  5  2018 formatted-num.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1885 Jul  5  2018 index.html
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          411 Jul  5  2018 ip-address.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1420 Jul  5  2018 num-html.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          984 Jul  5  2018 numeric-comma.js

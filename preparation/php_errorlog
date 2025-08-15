@@ -1,0 +1,69 @@
+[04-Sep-2020 06:49:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method functions::count_total_question_by_subject() in /home/customer/www/danquahprep.com/public_html/preparation/report_list.php:280
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/preparation/report_list.php on line 280
+[14-Sep-2020 01:55:20 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/danquahprep.com/public_html/preparation/start_test.php on line 868
+[05-Oct-2020 06:14:00 CST6CDT] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/customer/www/danquahprep.com/public_html/preparation/create_test.php on line 248
+[05-Oct-2020 06:14:06 CST6CDT] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/customer/www/danquahprep.com/public_html/preparation/create_test.php on line 248
+[05-Oct-2020 06:15:30 CST6CDT] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/customer/www/danquahprep.com/public_html/preparation/create_test.php on line 248
+[05-Oct-2020 06:16:37 CST6CDT] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 111
+[05-Oct-2020 06:23:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function inval() in /home/customer/www/danquahprep.com/public_html/include/functions.php:298
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(248): functions->get_incorrect_question('9', '8')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 298
+[12-Oct-2020 07:32:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function get_question_ids_by_Qmode() on null in /home/customer/www/danquahprep.com/public_html/include/functions.php:260
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(262): functions->get_unused_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 260
+[12-Oct-2020 07:34:18 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function get_question_ids_by_Qmode() on null in /home/customer/www/danquahprep.com/public_html/include/functions.php:260
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(262): functions->get_unused_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 260
+[12-Oct-2020 07:34:49 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function get_question_ids_by_Qmode() on null in /home/customer/www/danquahprep.com/public_html/include/functions.php:260
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(262): functions->get_unused_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 260
+[12-Oct-2020 07:35:21 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function get_question_ids_by_Qmode() on null in /home/customer/www/danquahprep.com/public_html/include/functions.php:260
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(262): functions->get_unused_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 260
+[12-Oct-2020 07:36:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function get_question_ids_by_Qmode() on null in /home/customer/www/danquahprep.com/public_html/include/functions.php:260
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(262): functions->get_unused_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 260
+[12-Oct-2020 09:35:27 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/danquahprep.com/public_html/include/functions.php:478
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(266): functions->get_marked_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 478
+[12-Oct-2020 09:36:07 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/danquahprep.com/public_html/include/functions.php:478
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(266): functions->get_marked_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 478
+[12-Oct-2020 09:37:40 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/danquahprep.com/public_html/include/functions.php:478
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(266): functions->get_marked_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 478
+[12-Oct-2020 09:41:02 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/danquahprep.com/public_html/include/functions.php:480
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(266): functions->get_marked_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 480
+[12-Oct-2020 09:41:12 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/danquahprep.com/public_html/include/functions.php:480
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/preparation/create_test.php(266): functions->get_marked_question('9', '8', '')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 480
+[12-Oct-2020 09:53:24 CST6CDT] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/customer/www/danquahprep.com/public_html/include/functions.php on line 880
+[16-Nov-2021 10:18:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_query() in /home/customer/www/danquahprep.com/public_html/preparation/test.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/preparation/test.php on line 28

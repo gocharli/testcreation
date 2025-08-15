@@ -1,0 +1,13 @@
+drwxr-xr-x    4 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 .
+drwxr-xr-x    4 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4       153369 Dec  2  2017 bootstrap-table-all.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        75541 Dec  2  2017 bootstrap-table-all.min.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        60457 Dec  2  2017 bootstrap-table-locale-all.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        33647 Dec  2  2017 bootstrap-table-locale-all.min.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         7462 Dec  2  2017 bootstrap-table.css
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1759 Dec  2  2017 bootstrap-table.ints.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4       112715 Dec  2  2017 bootstrap-table.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         5879 Dec  2  2017 bootstrap-table.min.css
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        54651 Dec  2  2017 bootstrap-table.min.js
+drwxr-xr-x   31 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 extensions
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 locale

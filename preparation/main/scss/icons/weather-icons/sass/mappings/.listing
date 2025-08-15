@@ -1,0 +1,10 @@
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 .
+drwxr-xr-x    5 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         6671 Jul  3  2018 wi-forecast-io.css
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1168 Jul  3  2018 wi-forecast-io.scss
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         6917 Jul  3  2018 wi-owm.css
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        19614 Jul  3  2018 wi-owm.scss
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         6299 Jul  3  2018 wi-wmo4680.css
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         6704 Jul  3  2018 wi-wmo4680.scss
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         6315 Jul  3  2018 wi-yahoo.css
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         2997 Jul  3  2018 wi-yahoo.scss

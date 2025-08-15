@@ -1,0 +1,12 @@
+drwxr-xr-x    7 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 .
+drwxr-xr-x    5 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 ..
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 area
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 bar
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1364 Dec  2  2017 commas_spec.coffee
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 donut
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 grid
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         2284 Dec  2  2017 hover_spec.coffee
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         6912 Dec  2  2017 label_series_spec.coffee
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 29  2018 line
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          604 Dec  2  2017 pad_spec.coffee
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         2054 Dec  2  2017 parse_time_spec.coffee

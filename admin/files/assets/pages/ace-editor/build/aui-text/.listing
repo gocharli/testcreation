@@ -1,0 +1,12 @@
+drwxr-xr-x    3 n0o5e6r4   n0o5e6r4         4096 Jun 24  2018 .
+drwxr-xr-x  333 n0o5e6r4   n0o5e6r4        16384 Jun 24  2018 ..
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jun 24  2018 assets
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        54081 Jan 20  2018 aui-text-data-unicode-debug.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        51509 Jan 20  2018 aui-text-data-unicode-min.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        54081 Jan 20  2018 aui-text-data-unicode.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        55473 Jan 20  2018 aui-text-debug.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        52021 Jan 20  2018 aui-text-min.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1270 Jan 20  2018 aui-text-unicode-debug.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          399 Jan 20  2018 aui-text-unicode-min.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1270 Jan 20  2018 aui-text-unicode.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        55473 Jan 20  2018 aui-text.js

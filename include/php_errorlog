@@ -1,0 +1,105 @@
+[01-Aug-2020 00:00:50 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: This value must be greater than or equal to 1. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:110
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Charge.php(74): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/customer/www/danquahprep.com/public_html/include/checkout.php(23): S in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 110
+[01-Aug-2020 22:36:20 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\Card: Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:114
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Customer.php(60): Stripe\Ap in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 114
+[01-Aug-2020 23:36:18 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: 'tok_1HBYviDeriUoU3nCrV2NgnX0'; a similar object exists in live mode, but a test mode key was used to make this request. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:110
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Customer.php(60): Stripe\ApiResource::_cr in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 110
+[01-Aug-2020 23:48:39 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: 'tok_1HBYviDeriUoU3nCrV2NgnX0'; a similar object exists in live mode, but a test mode key was used to make this request. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:110
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Customer.php(60): Stripe\ApiResource::_cr in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 110
+[02-Aug-2020 00:06:10 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\Card: Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:114
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Customer.php(60): Stripe\Ap in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 114
+[02-Aug-2020 00:30:33 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\Card: Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:114
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Customer.php(60): Stripe\Ap in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 114
+[02-Aug-2020 01:06:43 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\InvalidRequest: No such token: 'tok_1HBZmDDeriUoU3nCxOy7KQI5'; a similar object exists in test mode, but a live mode key was used to make this request. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:110
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/customers', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/customers', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Customer.php(60): Stripe\ApiResource::_cr in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 110
+[06-Aug-2020 22:33:44 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\Card: Your card was declined. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:114
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Charge.php(74): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/customer/www/danquahprep.com/public_html/include/checkout.php(24): Stripe\Charge::create(Array)
+#6 {m in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 114
+[07-Sep-2020 09:12:47 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\Card: Your card was declined. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:114
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Charge.php(74): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/customer/www/danquahprep.com/public_html/include/checkout.php(24): Stripe\Charge::create(Array)
+#6 {m in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 114
+[07-Sep-2020 12:52:04 CST6CDT] PHP Fatal error:  Uncaught Stripe\Error\Card: Your card was declined. in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php:114
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(273): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 402, Array, Array)
+#1 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 402, Array)
+#2 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiResource.php(158): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/customer/www/danquahprep.com/public_html/stripe-php/lib/Charge.php(74): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/customer/www/danquahprep.com/public_html/include/checkout.php(24): Stripe\Charge::create(Array)
+#6 {m in /home/customer/www/danquahprep.com/public_html/stripe-php/lib/ApiRequestor.php on line 114
+[09-Sep-2020 06:25:05 CST6CDT] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/customer/www/danquahprep.com/public_html/include/post_func.php on line 1802
+[05-Oct-2020 02:29:30 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/customer/www/danquahprep.com/public_html/include/post_func.php:1874
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/post_func.php on line 1874
+[05-Oct-2020 02:31:52 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/customer/www/danquahprep.com/public_html/include/post_func.php:1874
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/post_func.php on line 1874
+[12-Oct-2020 05:55:23 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/danquahprep.com/public_html/include/post_func.php:2002
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/post_func.php on line 2002
+[12-Oct-2020 05:58:06 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/customer/www/danquahprep.com/public_html/include/post_func.php:2001
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/post_func.php on line 2001
+[12-Oct-2020 09:28:02 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/customer/www/danquahprep.com/public_html/include/post_func.php on line 1981
+[14-Feb-2023 09:44:23 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/customer/www/danquahprep.com/public_html/include/db_functions.php:110
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/include/post_func.php(201): create_slug('tbl_category', 'slug', 'COLLEGE PREP')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/db_functions.php on line 110
+[14-Feb-2023 09:44:58 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/customer/www/danquahprep.com/public_html/include/db_functions.php:118
+Stack trace:
+#0 /home/customer/www/danquahprep.com/public_html/include/post_func.php(201): create_slug('tbl_category', 'slug', 'COLLEGE PREP')
+#1 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/include/db_functions.php on line 118

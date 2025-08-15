@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Test Creation</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- morris CSS -->
+    <link href="../assets/plugins/morrisjs/morris.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="css/colors/blue.css" id="theme" rel="stylesheet">
+    <link href="css/colors/custom.css" id="" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header fix-sidebar card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <img src="../assets/images/logo-light-text.png" alt="homepage" class="dark-logo" />
+                         <!-- Light Logo text -->    
+                         <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
+                        <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- ============================================================== -->
+                        
+                        
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href=""><i class="fa fa-home"></i> Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile">
+                    
+                    <!-- User profile text-->
+                    <div class="profile-text">
+                        <h4 style="color: #FFF;">SAT QBank</h4>
+                        <p style="color: #a7b1c2;">Expiry Date
+ May 07, 2020 5:46 PM EDT</p>
+                    </div>
+                </div>
+                <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-devider"></li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-edit"></i><span class="hide-menu">CREATE TEST</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-list-alt"></i><span class="hide-menu">PREVIOUS TESTS</span></a>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-bar-chart"></i><span class="hide-menu">PERFORMANCE</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="#"><i class="fa fa-pie-chart"></i> REPORTS</a></li>
+                                <li><a href="#"><i class="fa fa-line-chart"></i> GRAPHS</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-search"></i><span class="hide-menu">SEARCH</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-flash"></i><span class="hide-menu">FLASH CARDS</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-question-circle"></i><span class="hide-menu">HELP</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-comments"></i><span class="hide-menu">DISCUSSIONS <span class="new-text-badge-client">New</span></span></a>
+                        </li>
+                       
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-5 align-self-center">
+                    <h3 class="text-themecolor">Create Test</h3>
+                </div>
+                <div class="col-md-7 align-self-center">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active">Create Test</li>
+                    </ol>
+                </div>
+                <div>
+                    <button class="right-side-toggle waves-effect waves-light btn-inverse btn btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                
+				<div class="row">
+                    <div class="col-md-12 custom-tabs">
+                        <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Math</span></a> </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab"><span class="hidden-sm-up"><i class="ti-user"></i></span> <span class="hidden-xs-down">Reading</span></a> </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#messages" role="tab"><span class="hidden-sm-up"><i class="ti-email"></i></span> <span class="hidden-xs-down">Writing</span></a> </li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content tabcontent-border">
+                                    <div class="tab-pane active" id="home" role="tabpanel">
+                                        <div class="p-20">
+                                            
+											<div class="test-col">
+												
+												<div class="subtitle">
+												<h4>Quick <i class="fa fa-info-circle"></i></h4>
+												<a href="#" class="pull-right"><i class="fa fa-angle-down"></i></a>
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="body-content">
+												
+												<div class="col-md-1 pull-left">
+													<button type="button" class="btn waves-effect waves-light btn-info">Start Test</button>
+												</div>
+												<div class="col-md-1 pull-left">
+													<input class="form-control" type="text" value="5">
+												</div>
+												
+												<div class="col-md-3 pull-left">
+													<p class="m-0">Max Questions <span class="badge badge-dark">45</span></p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="clearfix"></div>
+											</div>
+											
+											<div class="test-col">
+												
+												<div class="subtitle">
+													
+													<h4>Personalize <i class="fa fa-info-circle"></i></h4>
+													<a href="#" class="pull-right"><i class="fa fa-angle-down"></i></a>
+													
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="body-content2">
+												
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Test Mode <i class="fa fa-info-circle"></i></h5>
+												    </div>
+														
+													<div class="col-sm-3">
+                                        <div class="demo-switch-title">Tutor</div>
+                                        <div class="switch">
+                                            <label>
+                                                <input type="checkbox" checked=""><span class="lever switch-col-light-blue"></span></label>
+                                        </div>
+                                    </div>
+													
+													<div class="col-sm-3">
+                                        <div class="demo-switch-title">Timed</div>
+                                        <div class="switch">
+                                            <label>
+                                                <input type="checkbox"><span class="lever switch-col-light-blue"></span></label>
+                                        </div>
+                                    </div>
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Question Mode <i class="fa fa-info-circle"></i></h5>
+												    </div>
+													
+													<div class="col-md-12 demo-radio-button mt-2">
+														<input name="group1" type="radio" class="with-gap radio-col-cyan" id="radio_1" checked="">
+														<label for="radio_1">Unused <span class="badge badge-secondary">908</span></label>
+														<input name="group1" type="radio" class="with-gap radio-col-cyan" id="radio_2">
+														<label for="radio_2">Incorrect <span class="badge badge-secondary">0</span></label>
+														<input name="group1" type="radio" class="with-gap chk-col-cyan" id="radio_3">
+														<label for="radio_3">Marked <span class="badge badge-secondary">0</span></label>
+														
+														<input name="group1" type="radio" id="radio_4" class="with-gap radio-col-cyan">
+														<label for="radio_4">All <span class="badge badge-secondary">908</span></label>
+														
+														<input name="group2" type="radio" class="with-gap radio-col-cyan" id="radio_5">
+														<label for="radio_5">Custom</label>
+													</div>
+														
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Difficulty Level <i class="fa fa-info-circle"></i></h5>
+												    	</div>
+													
+														<div class="col-md-12 mt-2 demo-checkbox">
+															<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_1" checked="">
+															<label for="basic_checkbox_1">Low <span class="badge badge-secondary">142</span></label>
+															<input type="checkbox" id="basic_checkbox_2" class="filled-in chk-col-cyan" checked="">
+															<label for="basic_checkbox_2">Medium  <span class="badge badge-secondary">301</span></label>
+															<input type="checkbox" id="basic_checkbox_3" class="filled-in chk-col-cyan" checked="">
+															<label for="basic_checkbox_3">High <span class="badge badge-secondary">66</span></label>
+															
+														</div>
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5><input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_4" checked="">
+															<label for="basic_checkbox_1">Subjects </label>
+															 <i class="fa fa-info-circle"></i></h5>
+												    	</div>
+													
+														<div class="col-md-6 mt-2 demo-checkbox">
+															<div class="col-md-12">
+																<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_5" checked="">
+																<label for="basic_checkbox_5">Heart of Algebra <span class="badge badge-secondary">160</span></label>
+																
+																<div class="col-md-12">
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_6" disabled="">
+																	<label for="basic_checkbox_6" style="width: 100%;">Linear Equations and Inequalities <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_7" disabled="">
+																	<label for="basic_checkbox_7" style="width: 100%;">One-Variable Data <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_8" disabled="">
+																	<label for="basic_checkbox_8" style="width: 100%;">Percentages <span class="badge badge-secondary">0</span></label>
+																
+																</div>
+																
+															</div>
+															
+															<div class="col-md-12 mt-3">
+																<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_9" checked="">
+																<label for="basic_checkbox_9">Problem Solving and Data Analysis <span class="badge badge-secondary">79</span></label>
+																
+																<div class="col-md-12">
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_10" disabled="">
+																	<label for="basic_checkbox_10" style="width: 100%;">Collecting and Interpreting Data <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_11" disabled="">
+																	<label for="basic_checkbox_11" style="width: 100%;">One-Variable Data <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_12" disabled="">
+																	<label for="basic_checkbox_12" style="width: 100%;">Percentages <span class="badge badge-secondary">0</span></label>
+																
+																</div>
+																
+															</div>
+															
+														</div>
+														
+														<div class="col-md-6 mt-2 demo-checkbox">
+															<div class="col-md-12">
+																<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_13" checked="">
+																<label for="basic_checkbox_13">Passport to Advanced Math <span class="badge badge-secondary">160</span></label>
+																
+																<div class="col-md-12">
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_14" disabled="">
+																	<label for="basic_checkbox_14" style="width: 100%;">Equivalent Expressions and Equations <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_15" disabled="">
+																	<label for="basic_checkbox_15" style="width: 100%;">Exponential Functions<span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_16" disabled="">
+																	<label for="basic_checkbox_16" style="width: 100%;">Other Nonlinear Functions <span class="badge badge-secondary">0</span></label>
+																
+																</div>
+																
+															</div>
+															
+															<div class="col-md-12 mt-3">
+																<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_17" checked="">
+																<label for="basic_checkbox_17">Additional Topics in Math<span class="badge badge-secondary">79</span></label>
+																
+																<div class="col-md-12">
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_18" disabled="">
+																	<label for="basic_checkbox_18" style="width: 100%;">Area and Volume <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_19" disabled="">
+																	<label for="basic_checkbox_19" style="width: 100%;">Circle Theorems and Properties<span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_20" disabled="">
+																	<label for="basic_checkbox_20" style="width: 100%;">Complex Numbers <span class="badge badge-secondary">0</span></label>
+																
+																</div>
+																
+															</div>
+															
+														</div>
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich mt-3">
+													
+														<div class="col-md-12">
+														<h5>Number of Questions <i class="fa fa-info-circle"></i></h5>
+												    </div>
+													
+														<div class="test-col" style="width: 100%;">
+														<div class="body-content">
+													
+														<div class="col-md-1 pull-left pr-0">
+													<input class="form-control" type="text" value="5">
+												</div>
+												
+														<div class="col-md-3 pull-left">
+													<p class="m-0">Max Questions <span class="badge badge-dark">45</span></p>
+												</div>
+														
+														
+													<div class="clearfix"></div>	
+															</div>
+															
+															</div>
+												</div>
+													
+													<button type="button" class="btn waves-effect waves-light btn-info">Generate Test</button>
+													
+												</div><!--body content-->
+												
+												<div class="clearfix"></div>
+											</div>
+												
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane  p-20" id="profile" role="tabpanel">
+										
+										<div class="test-col">
+												
+												<div class="subtitle">
+												<h4>Quick <i class="fa fa-info-circle"></i></h4>
+												<a href="#" class="pull-right"><i class="fa fa-angle-down"></i></a>
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="body-content">
+												
+												<div class="col-md-1 pull-left">
+													<button type="button" class="btn waves-effect waves-light btn-info">Start Test</button>
+												</div>
+												<div class="col-md-1 pull-left">
+													<input class="form-control" type="text" value="5">
+												</div>
+												
+												<div class="col-md-3 pull-left">
+													<p class="m-0">Max Questions <span class="badge badge-dark">45</span></p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="clearfix"></div>
+											</div>
+											
+											<div class="test-col">
+												
+												<div class="subtitle">
+													
+													<h4>Personalize <i class="fa fa-info-circle"></i></h4>
+													<a href="#" class="pull-right"><i class="fa fa-angle-down"></i></a>
+													
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="body-content2">
+												
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Test Mode <i class="fa fa-info-circle"></i></h5>
+												    </div>
+														
+													<div class="col-sm-3">
+                                        <div class="demo-switch-title">Tutor</div>
+                                        <div class="switch">
+                                            <label>
+                                                <input type="checkbox" checked=""><span class="lever switch-col-light-blue"></span></label>
+                                        </div>
+                                    </div>
+													
+													<div class="col-sm-3">
+                                        <div class="demo-switch-title">Timed</div>
+                                        <div class="switch">
+                                            <label>
+                                                <input type="checkbox"><span class="lever switch-col-light-blue"></span></label>
+                                        </div>
+                                    </div>
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Question Mode <i class="fa fa-info-circle"></i></h5>
+												    </div>
+													
+													<div class="col-md-12 demo-radio-button mt-2">
+														<input name="group1" type="radio" class="with-gap radio-col-cyan" id="radio_1" checked="">
+														<label for="radio_1">Unused <span class="badge badge-secondary">908</span></label>
+														<input name="group1" type="radio" class="with-gap radio-col-cyan" id="radio_2">
+														<label for="radio_2">Incorrect <span class="badge badge-secondary">0</span></label>
+														<input name="group1" type="radio" class="with-gap chk-col-cyan" id="radio_3">
+														<label for="radio_3">Marked <span class="badge badge-secondary">0</span></label>
+														
+														<input name="group1" type="radio" id="radio_4" class="with-gap radio-col-cyan">
+														<label for="radio_4">All <span class="badge badge-secondary">908</span></label>
+														
+														<input name="group2" type="radio" class="with-gap radio-col-cyan" id="radio_5">
+														<label for="radio_5">Custom</label>
+													</div>
+														
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Difficulty Level <i class="fa fa-info-circle"></i></h5>
+												    	</div>
+													
+														<div class="col-md-12 mt-2 demo-checkbox">
+															<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_1" checked="">
+															<label for="basic_checkbox_1">Low <span class="badge badge-secondary">142</span></label>
+															<input type="checkbox" id="basic_checkbox_2" class="filled-in chk-col-cyan" checked="">
+															<label for="basic_checkbox_2">Medium  <span class="badge badge-secondary">301</span></label>
+															<input type="checkbox" id="basic_checkbox_3" class="filled-in chk-col-cyan" checked="">
+															<label for="basic_checkbox_3">High <span class="badge badge-secondary">66</span></label>
+															
+														</div>
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5><input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_4" checked="">
+															<label for="basic_checkbox_1">Subjects </label>
+															 <i class="fa fa-info-circle"></i></h5>
+												    	</div>
+													
+														<div class="col-md-6 mt-2 demo-checkbox">
+															<div class="col-md-12">
+																<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_5" checked="">
+																<label for="basic_checkbox_5">Heart of Algebra <span class="badge badge-secondary">160</span></label>
+																
+																<div class="col-md-12">
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_6" disabled="">
+																	<label for="basic_checkbox_6" style="width: 100%;">Linear Equations and Inequalities <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_7" disabled="">
+																	<label for="basic_checkbox_7" style="width: 100%;">One-Variable Data <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_8" disabled="">
+																	<label for="basic_checkbox_8" style="width: 100%;">Percentages <span class="badge badge-secondary">0</span></label>
+																
+																</div>
+																
+															</div>
+															
+															
+															
+														</div>
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich mt-3">
+													
+														<div class="col-md-12">
+														<h5>Number of Questions <i class="fa fa-info-circle"></i></h5>
+												    </div>
+													
+														<div class="test-col" style="width: 100%;">
+														<div class="body-content">
+													
+														<div class="col-md-1 pull-left pr-0">
+													<input class="form-control" type="text" value="5">
+												</div>
+												
+														<div class="col-md-3 pull-left">
+													<p class="m-0">Max Questions <span class="badge badge-dark">45</span></p>
+												</div>
+														
+														
+													<div class="clearfix"></div>	
+															</div>
+															
+															</div>
+												</div>
+													
+													<button type="button" class="btn waves-effect waves-light btn-info">Generate Test</button>
+													
+												</div><!--body content-->
+												
+												<div class="clearfix"></div>
+											</div>
+									
+									</div>
+                                    <div class="tab-pane p-20" id="messages" role="tabpanel">
+										
+										<div class="test-col">
+												
+												<div class="subtitle">
+												<h4>Quick <i class="fa fa-info-circle"></i></h4>
+												<a href="#" class="pull-right"><i class="fa fa-angle-down"></i></a>
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="body-content">
+												
+												<div class="col-md-1 pull-left">
+													<button type="button" class="btn waves-effect waves-light btn-info">Start Test</button>
+												</div>
+												<div class="col-md-1 pull-left">
+													<input class="form-control" type="text" value="5">
+												</div>
+												
+												<div class="col-md-3 pull-left">
+													<p class="m-0">Max Questions <span class="badge badge-dark">45</span></p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="clearfix"></div>
+											</div>
+											
+											<div class="test-col">
+												
+												<div class="subtitle">
+													
+													<h4>Personalize <i class="fa fa-info-circle"></i></h4>
+													<a href="#" class="pull-right"><i class="fa fa-angle-down"></i></a>
+													
+												<div class="clearfix"></div>
+											</div>
+												
+												<div class="body-content2">
+												
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Test Mode <i class="fa fa-info-circle"></i></h5>
+												    </div>
+														
+													<div class="col-sm-3">
+                                        <div class="demo-switch-title">Tutor</div>
+                                        <div class="switch">
+                                            <label>
+                                                <input type="checkbox" checked=""><span class="lever switch-col-light-blue"></span></label>
+                                        </div>
+                                    </div>
+													
+													<div class="col-sm-3">
+                                        <div class="demo-switch-title">Timed</div>
+                                        <div class="switch">
+                                            <label>
+                                                <input type="checkbox"><span class="lever switch-col-light-blue"></span></label>
+                                        </div>
+                                    </div>
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Question Mode <i class="fa fa-info-circle"></i></h5>
+												    </div>
+													
+													<div class="col-md-12 demo-radio-button mt-2">
+														<input name="group1" type="radio" class="with-gap radio-col-cyan" id="radio_1" checked="">
+														<label for="radio_1">Unused <span class="badge badge-secondary">908</span></label>
+														<input name="group1" type="radio" class="with-gap radio-col-cyan" id="radio_2">
+														<label for="radio_2">Incorrect <span class="badge badge-secondary">0</span></label>
+														<input name="group1" type="radio" class="with-gap chk-col-cyan" id="radio_3">
+														<label for="radio_3">Marked <span class="badge badge-secondary">0</span></label>
+														
+														<input name="group1" type="radio" id="radio_4" class="with-gap radio-col-cyan">
+														<label for="radio_4">All <span class="badge badge-secondary">908</span></label>
+														
+														<input name="group2" type="radio" class="with-gap radio-col-cyan" id="radio_5">
+														<label for="radio_5">Custom</label>
+													</div>
+														
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5>Difficulty Level <i class="fa fa-info-circle"></i></h5>
+												    	</div>
+													
+														<div class="col-md-12 mt-2 demo-checkbox">
+															<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_1" checked="">
+															<label for="basic_checkbox_1">Low <span class="badge badge-secondary">142</span></label>
+															<input type="checkbox" id="basic_checkbox_2" class="filled-in chk-col-cyan" checked="">
+															<label for="basic_checkbox_2">Medium  <span class="badge badge-secondary">301</span></label>
+															<input type="checkbox" id="basic_checkbox_3" class="filled-in chk-col-cyan" checked="">
+															<label for="basic_checkbox_3">High <span class="badge badge-secondary">66</span></label>
+															
+														</div>
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich border-bottom">
+													
+														<div class="col-md-12">
+														<h5><input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_4" checked="">
+															<label for="basic_checkbox_1">Subjects </label>
+															 <i class="fa fa-info-circle"></i></h5>
+												    	</div>
+													
+														<div class="col-md-6 mt-2 demo-checkbox">
+															<div class="col-md-12">
+																<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_5" checked="">
+																<label for="basic_checkbox_5">Heart of Algebra <span class="badge badge-secondary">160</span></label>
+																
+																<div class="col-md-12">
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_6" disabled="">
+																	<label for="basic_checkbox_6" style="width: 100%;">Linear Equations and Inequalities <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_7" disabled="">
+																	<label for="basic_checkbox_7" style="width: 100%;">One-Variable Data <span class="badge badge-secondary">0</span></label>
+																	
+																	<input type="checkbox" class="filled-in chk-col-cyan" id="basic_checkbox_8" disabled="">
+																	<label for="basic_checkbox_8" style="width: 100%;">Percentages <span class="badge badge-secondary">0</span></label>
+																
+																</div>
+																
+															</div>
+															
+															
+															
+														</div>
+														
+														
+													<div class="clearfix"></div>	
+												</div>
+													
+													<div class="row demo-swtich mt-3">
+													
+														<div class="col-md-12">
+														<h5>Number of Questions <i class="fa fa-info-circle"></i></h5>
+												    </div>
+													
+														<div class="test-col" style="width: 100%;">
+														<div class="body-content">
+													
+														<div class="col-md-1 pull-left pr-0">
+													<input class="form-control" type="text" value="5">
+												</div>
+												
+														<div class="col-md-3 pull-left">
+													<p class="m-0">Max Questions <span class="badge badge-dark">45</span></p>
+												</div>
+														
+														
+													<div class="clearfix"></div>	
+															</div>
+															
+															</div>
+												</div>
+													
+													<button type="button" class="btn waves-effect waves-light btn-info">Generate Test</button>
+													
+												</div><!--body content-->
+												
+												<div class="clearfix"></div>
+											</div>
+									
+									</div>
+                                </div>
+                    </div>
+                </div>
+                <!-- row -->
+				
+				
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center"> Copyright © LeadPages. All rights reserved. </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!--sparkline JavaScript -->
+    <script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--morris JavaScript -->
+    <script src="../assets/plugins/raphael/raphael-min.js"></script>
+    <script src="../assets/plugins/morrisjs/morris.min.js"></script>
+    <!-- Chart JS -->
+    <script src="js/dashboard1.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+
+</html>

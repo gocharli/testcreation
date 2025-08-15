@@ -1,0 +1,11 @@
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 .
+drwxr-xr-x    6 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          365 Jul  3  2018 variables-beaufort.less
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          650 Jul  3  2018 variables-day.less
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          231 Jul  3  2018 variables-direction.less
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          504 Jul  3  2018 variables-misc.less
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1964 Jul  3  2018 variables-moon.less
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          852 Jul  3  2018 variables-neutral.less
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1285 Jul  3  2018 variables-night.less
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          229 Jul  3  2018 variables-time.less
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          486 Jul  3  2018 variables-wind-names.less

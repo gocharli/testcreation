@@ -1,0 +1,1296 @@
+[15-Feb-2023 10:24:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 368
+[15-Feb-2023 10:25:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 367
+[15-Feb-2023 10:31:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 365
+[15-Feb-2023 10:36:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 368
+[02-Aug-2024 05:56:43 CST6CDT] PHP Deprecated:  Optional parameter $field declared before required parameter $name is implicitly treated as a required parameter in /home/customer/www/danquahprep.com/public_html/include/db_functions.php on line 105
+[15-Aug-2024 04:45:17 CST6CDT] PHP Deprecated:  Optional parameter $field declared before required parameter $name is implicitly treated as a required parameter in /home/customer/www/danquahprep.com/public_html/include/db_functions.php on line 105
+[15-Aug-2024 05:02:45 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 05:36:34 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 09:17:47 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 09:37:36 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 14:07:48 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 14:15:03 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 15:02:10 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 15:49:56 CST6CDT] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/danquahprep.com/public_html/cart.php on line 103
+[15-Aug-2024 15:49:56 CST6CDT] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/danquahprep.com/public_html/cart.php on line 123
+[15-Aug-2024 17:45:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 19:07:22 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 19:24:27 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 19:39:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Aug-2024 20:43:57 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 00:51:43 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 03:18:48 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 05:02:13 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 05:12:30 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 05:28:06 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 05:38:52 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 07:05:57 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 08:41:31 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 08:43:57 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 08:44:07 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 08:45:54 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 08:51:52 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 09:00:06 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 09:11:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 09:28:36 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 11:07:53 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 12:49:44 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 14:11:42 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 15:39:27 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 16:22:46 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 17:17:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 17:29:23 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 20:51:16 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 21:16:51 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 21:28:05 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[16-Aug-2024 21:29:13 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 00:06:53 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 01:42:25 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 04:10:52 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 04:43:23 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 04:48:37 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 04:58:06 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 09:07:29 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 09:24:41 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 11:15:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 15:11:20 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 15:31:37 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 17:11:16 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 17:26:50 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 18:34:10 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 21:31:12 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 21:39:01 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 21:39:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[17-Aug-2024 21:48:14 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 03:17:25 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 04:05:33 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 04:44:09 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 06:18:54 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 06:24:54 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 06:36:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 07:10:49 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 08:22:47 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 10:38:16 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 11:22:44 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 12:14:27 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 12:53:33 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 12:57:44 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 16:24:21 CST6CDT] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/danquahprep.com/public_html/cart.php on line 103
+[18-Aug-2024 16:24:21 CST6CDT] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/customer/www/danquahprep.com/public_html/cart.php on line 123
+[18-Aug-2024 16:37:38 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 17:16:37 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 17:37:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 19:01:40 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 19:22:25 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 19:39:14 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 19:53:55 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 20:10:29 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 20:37:23 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 21:33:41 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 21:54:40 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 21:57:35 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 23:11:57 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[18-Aug-2024 23:18:30 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 00:49:04 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 04:03:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 05:54:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 06:55:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 07:20:14 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 07:44:58 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 09:33:53 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 10:02:21 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 10:25:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 11:04:20 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 11:31:16 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 11:54:23 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 12:21:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 13:16:42 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 13:32:16 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 13:47:46 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 15:04:27 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 18:29:28 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 18:53:42 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 18:55:38 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 19:14:28 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 20:22:28 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 20:51:30 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 21:41:54 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 23:18:08 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[19-Aug-2024 23:57:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[20-Aug-2024 00:08:05 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[20-Aug-2024 04:42:05 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[20-Aug-2024 05:12:01 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[20-Aug-2024 07:13:09 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[20-Aug-2024 14:03:58 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[20-Aug-2024 23:09:08 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[20-Aug-2024 23:20:34 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 00:33:22 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 04:55:08 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 08:22:13 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 17:15:26 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 17:16:46 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 17:24:24 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 18:01:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 19:16:07 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[21-Aug-2024 19:27:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 03:18:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 04:27:35 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 06:30:03 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 06:56:35 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 10:39:06 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 12:29:58 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 12:44:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 13:27:18 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 13:45:19 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 14:01:47 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 16:04:23 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 17:16:19 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 17:44:47 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[22-Aug-2024 23:12:43 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 00:22:18 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 00:57:28 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 04:26:12 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 06:23:42 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 08:49:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 13:06:33 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 15:34:27 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 17:39:48 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 18:48:55 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 20:40:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 22:22:28 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 22:46:49 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[23-Aug-2024 23:14:03 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 00:48:27 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 05:43:05 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 08:40:44 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 08:48:56 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 15:51:30 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 18:31:17 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 19:26:58 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 20:49:42 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 21:04:34 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[24-Aug-2024 22:27:38 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 02:53:52 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 04:26:49 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 04:33:54 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 04:36:08 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 05:12:07 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 05:19:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 05:38:27 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 05:45:11 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 11:18:31 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 11:27:58 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 11:47:12 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 12:40:33 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 13:08:39 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 16:35:14 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 16:55:25 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 17:05:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 17:27:05 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 18:51:38 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 19:43:11 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 20:40:22 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 21:23:33 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 22:22:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 22:30:10 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[25-Aug-2024 23:20:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 01:29:55 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 03:32:56 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 03:39:10 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 03:39:16 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 05:00:24 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 05:29:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 06:46:50 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 08:30:39 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 08:57:13 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 09:33:01 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 10:47:10 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 17:19:04 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 17:28:23 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 17:35:04 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 20:27:36 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 20:38:25 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 20:43:49 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 20:45:58 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 20:48:38 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 23:13:22 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[26-Aug-2024 23:18:29 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 00:41:05 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 01:00:31 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 01:51:47 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 02:15:18 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 02:20:31 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 02:49:21 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 04:45:06 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 07:36:18 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 08:45:45 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 09:02:05 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 09:15:07 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 09:20:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 11:10:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 12:02:31 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 12:22:57 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 12:52:10 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 13:35:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 13:37:22 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 15:40:41 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 17:02:04 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 17:16:22 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:45:08 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:45:30 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:45:45 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:46:05 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:46:22 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:46:37 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:46:50 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:47:06 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:47:19 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:47:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 18:58:53 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 19:18:34 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 19:22:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 19:27:15 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 20:50:19 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 20:50:21 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 20:50:21 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 20:50:22 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 20:54:12 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[27-Aug-2024 23:12:28 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 00:16:43 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 00:52:34 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 00:56:21 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 02:53:43 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 03:39:33 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:270
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 270
+[28-Aug-2024 04:38:11 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 04:52:04 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 07:37:52 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 09:14:12 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 09:23:17 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 13:29:45 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 18:51:48 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 19:16:44 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 20:27:54 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:270
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 270
+[28-Aug-2024 21:00:55 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:00:56 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:00:57 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:00:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:00:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:01:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:01:01 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:01:02 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:01:03 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[28-Aug-2024 21:01:03 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 03:09:43 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 03:16:14 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 03:39:37 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 04:03:19 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 04:35:07 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 04:52:10 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 04:57:53 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 09:08:13 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 10:55:07 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 18:17:19 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 18:28:20 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 18:52:28 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 20:21:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 21:07:00 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 23:09:14 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[29-Aug-2024 23:09:37 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[30-Aug-2024 02:55:42 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[30-Aug-2024 04:30:15 CST6CDT] PHP Deprecated:  Optional parameter $field declared before required parameter $name is implicitly treated as a required parameter in /home/customer/www/danquahprep.com/public_html/include/db_functions.php on line 105
+[30-Aug-2024 05:55:01 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[30-Aug-2024 06:29:52 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[30-Aug-2024 09:35:29 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 08:20:03 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 10:00:24 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 10:09:15 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 13:11:10 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 18:49:50 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 18:50:24 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 18:55:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 18:56:12 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 19:59:18 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[31-Aug-2024 19:59:32 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[01-Sep-2024 02:02:08 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[01-Sep-2024 05:38:09 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[01-Sep-2024 11:05:12 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[01-Sep-2024 12:13:37 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[01-Sep-2024 12:49:59 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[01-Sep-2024 17:04:43 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[02-Sep-2024 12:03:16 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[02-Sep-2024 13:04:13 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[02-Sep-2024 13:04:35 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[02-Sep-2024 13:05:07 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[02-Sep-2024 13:05:17 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[02-Sep-2024 14:44:07 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[02-Sep-2024 14:44:13 CST6CDT] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Sep-2024 23:05:11 UTC] PHP Deprecated:  Required parameter $name follows optional parameter $field in /home/customer/www/danquahprep.com/public_html/include/db_functions.php on line 105
+[15-Sep-2024 23:05:14 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Sep-2024 23:05:18 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Sep-2024 23:05:19 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Sep-2024 23:05:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Sep-2024 23:05:21 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214
+[15-Sep-2024 23:05:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/customer/www/danquahprep.com/public_html/desctiption.php:214
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/danquahprep.com/public_html/desctiption.php on line 214

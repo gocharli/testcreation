@@ -1,0 +1,14 @@
+drwxr-xr-x    5 n0o5e6r4   n0o5e6r4         4096 Aug  1  2018 .
+drwxr-x---   15 n0o5e6r4   99               4096 Apr 11  2019 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        11392 Aug  1  2018 CHANGELOG.md
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1072 Aug  1  2018 LICENSE
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         7441 Aug  1  2018 README.md
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4            7 Aug  1  2018 VERSION
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          887 Aug  1  2018 build.php
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          721 Aug  1  2018 composer.json
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Aug  1  2018 data
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         3681 Aug  1  2018 init.php
+drwxr-xr-x    5 n0o5e6r4   n0o5e6r4         4096 Aug  1  2018 lib
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          437 Aug  1  2018 phpunit.no_autoload.xml
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          425 Aug  1  2018 phpunit.xml
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Aug  1  2018 tests

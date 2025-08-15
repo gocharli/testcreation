@@ -1,0 +1,16 @@
+drwxr-xr-x    7 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 .
+drwxr-xr-x    3 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 ..
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 compat
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        15407 Jul  5  2018 core.js
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 data
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        10608 Jul  5  2018 defaults.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        16165 Jul  5  2018 diacritics.js
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 dropdown
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          902 Jul  5  2018 dropdown.js
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 i18n
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          315 Jul  5  2018 keys.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         3254 Jul  5  2018 options.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4        12934 Jul  5  2018 results.js
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 selection
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          717 Jul  5  2018 translation.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         6678 Jul  5  2018 utils.js

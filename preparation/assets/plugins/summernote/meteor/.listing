@@ -1,0 +1,8 @@
+drwxr-xr-x    2 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 .
+drwxr-xr-x    7 n0o5e6r4   n0o5e6r4         4096 Jul  3  2018 ..
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1291 Jul  5  2018 README.md
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1115 Jul  5  2018 package-standalone.js
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4         1021 Jul  5  2018 package.js
+-rwxr-xr-x    1 n0o5e6r4   n0o5e6r4         1572 Jul  5  2018 publish.sh
+-rwxr-xr-x    1 n0o5e6r4   n0o5e6r4         1309 Jul  5  2018 runtests.sh
+-rw-r--r--    1 n0o5e6r4   n0o5e6r4          243 Jul  5  2018 test.js
