@@ -9154,3 +9154,10 @@ form#login-form:after {
 .signform.overflow-hidden {
     overflow: hidden !important;
 }
+#carouselExampleFade{
+    margin-top: -61px;
+}
+.navbar-brand img {
+    height: 80px; /* Set the height */
+    
+}

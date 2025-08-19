@@ -102,7 +102,7 @@
 	
 	  return $text;
 	}
-	 function create_slug($table, $field='slug', $name)
+	 function create_slug($table, $name, $field = 'slug')
 	{
 		$table = $table;    //Write table name
 		$field = $field;         //Write field name

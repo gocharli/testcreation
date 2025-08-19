@@ -1,8 +1,23 @@
 <?php 
-	include('include/connection.php');
-	include('include/functions.php');
+include('include/connection.php');
+    include('include/functions.php');
+	 echo $base_url; 
 	$functions = new functions;
-	$base_url = 'https://'.$_SERVER['HTTP_HOST']."/";
+
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+
+// Detect localhost or live
+if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+    $base_url = $protocol . $_SERVER['HTTP_HOST'] . "/testcreation"; // no trailing slash here
+} else {
+    $base_url = $protocol . $_SERVER['HTTP_HOST']; // live domain
+}
+
+// Add trailing slash when using
+$base_url = rtrim($base_url, '/') . '/';
+
+
+
 	 $categ= $category_info = get_table_data('tbl_category', 'slug="'.$_REQUEST['id'].'" ');
 	 if($categ!='')
 		{
@@ -49,18 +64,18 @@
 			<title>DanquahPrep</title>
 			<!-- / -->
 			<!---Font Icon-->
-			<link href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/plugin/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
-			<link href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/plugin/et-line/style.css" rel="stylesheet">
-			<link href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/plugin/themify-icons/themify-icons.css" rel="stylesheet">
+			<link href="<?= $base_url ?>static/plugin/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
+			<link href="<?= $base_url ?>static/plugin/et-line/style.css" rel="stylesheet">
+			<link href="<?= $base_url ?>static/plugin/themify-icons/themify-icons.css" rel="stylesheet">
 			<!-- / -->
 			<!-- Plugin CSS -->
-			<link href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-			<link href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+			<link href="<?= $base_url ?>static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+			<link href="<?= $base_url ?>static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
 			<!-- / -->
 			<!-- Theme Style -->
-			<link href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/css/custom-front.css" rel="stylesheet">
-			<link href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/css/styles.css" rel="stylesheet">
-			<link href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/css/color/default.css" rel="stylesheet" id="color_theme">
+			<link href="<?= $base_url ?>static/css/custom-front.css" rel="stylesheet">
+			<link href="<?= $base_url ?>static/css/styles.css" rel="stylesheet">
+			<link href="<?= $base_url ?>static/css/color/default.css" rel="stylesheet" id="color_theme">
 			<!-- / -->
 			<!-- Favicon -->
 			<link rel="icon" href="<?= $base_url ?>favicon/favicon.ico" />
@@ -84,7 +99,7 @@
 				<div class="container-fluid p-0">
 					<nav class="navbar navbar-expand-lg">
 						<!-- Brand -->
-						<a class="navbar-brand p-1-l" href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>"><img src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/logo.png" title="" alt=""></a>
+						<a class="navbar-brand p-1-l" href="<?= $base_url ?>"><img src="<?= $base_url ?>static/img/logo.png" title="" alt=""></a>
 						<!-- / -->
 						<!-- Mobile Toggle -->
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,10 +127,10 @@
 			<main>
 				<!-- Home Banner -->
 				<section id="home-box" class="home-banner-02 theme-after-bg theme-bg">
-					<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+					<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="margin-top: -118px !important;">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img class="d-block w-100" src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/bannerImg/<?php echo $banner_image;?>" alt="First slide">
+								<img class="d-block w-100" src="<?= $base_url ?>/bannerImg/<?php echo $banner_image;?>" alt="First slide">
 								<div class="carousel-caption text-left d-none d-md-block">
 									<div class="row p-100px-tb">
 										<div class="col-md-6">
@@ -162,7 +177,7 @@
 								<div class="tab-pane sm-p-40px-t fade show active" id="" role="tabpanel" aria-labelledby="home-tab">
 									<div class="row align-items-center">
 										<div class="col-md-6 text-center">
-											<img src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/act_features_images.png" alt="Feature Image">
+											<img src="<?= $base_url ?>static/img/act_features_images.png" alt="Feature Image">
 										</div>
 										<!-- col -->
 										<div class="col-md-6 sm-m-40px-t">
@@ -211,25 +226,25 @@
 											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 										</ol>
 										<div class="carousel-inner">
-											<?php if($_REQUEST[id] == 9){?>
+											<?php if ($_REQUEST['id'] == 9) { ?>
 												<div class="carousel-item active">
-													<img class="d-block w-100" src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/pharmaceutical_calculations_image.png" alt="First slide">
+													<img class="d-block w-100" src="<?= $base_url ?>static/img/pharmaceutical_calculations_image.png" alt="First slide">
 												</div>
 												<div class="carousel-item">
-													<img class="d-block w-100" src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/pharmaceutical_calculations_why_us.png" alt="Second slide">
+													<img class="d-block w-100" src="<?= $base_url ?>static/img/pharmaceutical_calculations_why_us.png" alt="Second slide">
 												</div>
 												<div class="carousel-item">
-													<img class="d-block w-100" src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/pharmaceutical_calculations_explanation_features.png" alt="Third slide">
+													<img class="d-block w-100" src="<?= $base_url ?>static/img/pharmaceutical_calculations_explanation_features.png" alt="Third slide">
 												</div>
 											<?php } else {?>
 												<div class="carousel-item active">
-													<img class="d-block w-100" src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/Math.jpg" alt="First slide">
+													<img class="d-block w-100" src="<?= $base_url ?>static/img/Math.jpg" alt="First slide">
 												</div>
 												<div class="carousel-item">
-													<img class="d-block w-100" src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/Writing.jpg" alt="Second slide">
+													<img class="d-block w-100" src="<?= $base_url ?>static/img/Writing.jpg" alt="Second slide">
 												</div>
 												<div class="carousel-item">
-													<img class="d-block w-100" src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/Grammar.jpg" alt="Third slide">
+													<img class="d-block w-100" src="<?= $base_url ?>static/img/Grammar.jpg" alt="Third slide">
 												</div>
 											<?php }?>
 										</div>
@@ -267,10 +282,10 @@
 									<div class="row align-items-center">
 										<div class="col-md-6 text-center">
 											<div class="std-box">
-												<?php if($_REQUEST[id] == 9){?>
-													<img src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/pharmaceutical_calculations_why_us.png" alt=""/> 
+											<?php if ($_REQUEST['id'] == 9) { ?>
+													<img src="<?= $base_url ?>static/img/pharmaceutical_calculations_why_us.png" alt=""/> 
 												<?php } else {?>
-													<img src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/DanquahPrep_homepage_why_us.png" alt=""/> 
+													<img src="<?= $base_url ?>static/img/DanquahPrep_homepage_why_us.png" alt=""/> 
 												<?php }?>
 											</div>
 										</div> 
@@ -365,7 +380,7 @@
 								<div class="tab-pane p-80px-t sm-p-40px-t fade" id="contacta" role="tabpanel" aria-labelledby="contact-tab">
 									<div class="row align-items-center">
 										<div class="col-md-6 text-center">
-											<img class="img-shadow" src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/img/550x500.jpg" title="" alt="">
+											<img class="img-shadow" src="<?= $base_url ?>static/img/550x500.jpg" title="" alt="">
 										</div>
 										<!-- col -->
 										<div class="col-md-6 sm-p-40px-t">
@@ -392,17 +407,28 @@
 			</main>
 			<!-- Main End -->
 			<!-- Footer -->
-			<?php include('footer.php');?>
+			<?php include('footer.php');
+			$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+
+// Detect localhost or live
+if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+    $base_url = $protocol . $_SERVER['HTTP_HOST'] . "/testcreation"; // no trailing slash here
+} else {
+    $base_url = $protocol . $_SERVER['HTTP_HOST']; // live domain
+}
+
+// Add trailing slash when using
+$base_url = rtrim($base_url, '/') . '/'; ?>
 			<!-- / -->
 			<!-- jQuery -->
-			<script src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/js/jquery-3.2.1.min.js"></script>
-			<script src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/js/jquery-migrate-3.0.0.min.js"></script>
+			<script src="<?= $base_url ?>static/js/jquery-3.2.1.min.js"></script>
+			<script src="<?= $base_url ?>static/js/jquery-migrate-3.0.0.min.js"></script>
 			<!-- Plugins -->
-			<script src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/plugin/bootstrap/js/popper.min.js"></script>
-			<script src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/plugin/bootstrap/js/bootstrap.min.js"></script>
-			<script src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/plugin/owl-carousel/js/owl.carousel.min.js"></script>
+			<script src="<?= $base_url ?>static/plugin/bootstrap/js/popper.min.js"></script>
+			<script src="<?= $base_url ?>static/plugin/bootstrap/js/bootstrap.min.js"></script>
+			<script src="<?= $base_url ?>static/plugin/owl-carousel/js/owl.carousel.min.js"></script>
 			<!-- custom -->
-			<script src="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/static/js/custom.js"></script>
+			<script src="<?= $base_url ?>static/js/custom.js"></script>
 			<script>
 				var theToggle = document.getElementById('toggle');
 				// hasClass 

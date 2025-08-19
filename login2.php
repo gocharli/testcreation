@@ -306,6 +306,19 @@
 			}
 		});		
 	});
+	$(document).ready(function() {
+    // Toggle password visibility
+    $('#remember').change(function() {
+        var passwordField = $('#userPassword');
+        if (this.checked) {
+            passwordField.attr('type', 'text');
+        } else {
+            passwordField.attr('type', 'password');
+        }
+    });
+    
+
+});
 	</script>
 </body>
 <!-- Body End -->
