@@ -1611,7 +1611,7 @@
 					$user_info = get_table_data('tbl_users', 'username="'.$register_email.'"');
 					if($user_info == "")
 					{
-						$array_val = array("username" => $register_email, "password" => md5($register_password), "firstname" => "", "lastname" => "", "primaryaddress" => "", "secondaryaddress" => "", "city" => "", "country" => "", "state" => "", "zipcode" => "", "phone" => "", "usertype" => "", "usercountry" => "", "userstate" => "", "graduationyear" => "", "schoolname" => "", "securityquestion1" => "", "securityanswer1" => "", "securityquestion2" => "", "securityanswer2" => "", "status" => 'Active', "created_date" => date('Y-m-d H:i:s'));
+						$array_val = array("username" => $register_email, "password" => md5($register_password), "firstname" => "", "lastname" => "", "primaryaddress" => "", "secondaryaddress" => "", "city" => "", "country" => "", "state" =>null, "zipcode" => "", "phone" => "", "usertype" => "", "usercountry" => "", "userstate" => "", "graduationyear" => "", "schoolname" => "", "securityquestion1" => "", "securityanswer1" => "", "securityquestion2" => "", "securityanswer2" => "", "status" => 'Active', "created_date" => date('Y-m-d H:i:s'));
 						$insert_info = insert_table_data($array_val, 'tbl_users');
 						$last_id = last_id();
 						if($last_id > 0)
@@ -2512,7 +2512,12 @@
 				if(isset($_REQUEST['pPhoneno'])){$pPhoneno = $_REQUEST['pPhoneno'];}				
 				if(isset($_REQUEST['userType'])){$userType = $_REQUEST['userType'];}
 				
-				if(isset($_REQUEST['userCountry'])){$userCountry = $_REQUEST['userCountry'];}
+				if (isset($_REQUEST['userCountry']) && $_REQUEST['userCountry'] !== '') {
+					$userCountry = (int) $_REQUEST['userCountry']; // cast to int for safety
+				} else {
+					$userCountry = 0;
+				}
+				
 				if(isset($_REQUEST['userState'])){$userState = $_REQUEST['userState'];}
 				if(isset($_REQUEST['graduationYear'])){$graduationYear = $_REQUEST['graduationYear'];}
 				if(isset($_REQUEST['schoolName'])){$schoolName = $_REQUEST['schoolName'];}

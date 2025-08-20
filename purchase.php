@@ -100,6 +100,10 @@
 			<div class="container p-50px-tb">	
 				<div class="row">	
 				<?php		
+				$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+$host     = $_SERVER['HTTP_HOST'];
+$basePath = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');  // e.g. /testcreation
+$baseUrl  = rtrim($protocol . $host . $basePath, '/');
 					$category_info = get_table_data('tbl_category', 'id!="" AND parent_id = "0" AND status = "Active" ');
 					if($category_info!='')
 					{		
@@ -107,7 +111,7 @@
 						{	
 							?>					
 							<div class="col-md-4 pull-left">
-								<h4><?php echo $value->category_name;?></h4>
+								<h4 class="mt-3"><?php echo $value->category_name;?></h4>
 								<div class="package-listing">	
 									<?php		
 										$subcategory_info = get_table_data('tbl_category', 'id!="" AND parent_id = "'.$value->id.'" AND status = "Active" ');
@@ -115,12 +119,14 @@
 										{				
 											foreach($subcategory_info as $key => $val)	
 											{
+												 $url = $baseUrl . "/category/" . $val->slug; 
 												?>							
 												<ul>					
 													<li>
-														<h6><?php echo $val->category_name;?></h6>		
-														<a href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/category/<?php echo $val->slug;?>" class="m-btn-theme">View</a>	
+														<h6 style="margin-bottom: 0!important; margin-top: 7px !important; "><?php echo $val->category_name;?></h6>		
+														<a href="<?= $url ?>" class="m-btn-theme">View</a>	
 														<div class="clearfix"></div>
+										
 													</li>		
 												</ul>	
 												<?php	

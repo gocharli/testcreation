@@ -7,13 +7,44 @@
 						<h4 class="font-alt text">Helpful Links</h4>
 						<div class="d-flex justify-content-around">
 							<ul class="fot-link">
-								<li><a href="<?= $base_url ?>aboutus" class="fa fa-angle-double-right"> About us</a></li>
-								<li><a href="<?= $base_url ?>purchase" class="fa fa-angle-double-right"> Purchase</a></li>
-								<li><a href="<?= $base_url ?>privacy" class="fa fa-angle-double-right"> Privacy</a></li>
-								<li><a href="<?= $base_url ?>terms" class="fa fa-angle-double-right"> Terms of use</a></li>
-								<li><a href="javascript:;" class="fa fa-angle-double-right"> Contact us</a></li>
-								<li><a href="http://blog.danquahprep.com/" class="fa fa-angle-double-right"> Blog</a></li>
-							</ul>
+  <li>
+    <a href="<?= $base_url ?>aboutus">
+      <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+      <span>About us</span>
+    </a>
+  </li>
+  <li>
+    <a href="<?= $base_url ?>purchase">
+      <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+      <span>Purchase</span>
+    </a>
+  </li>
+  <li>
+    <a href="<?= $base_url ?>privacy">
+      <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+      <span>Privacy</span>
+    </a>
+  </li>
+  <li>
+    <a href="<?= $base_url ?>terms">
+      <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+      <span>Terms of use</span>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;" id="contactLink">
+      <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+      <span>Contact us</span>
+    </a>
+  </li>
+  <li>
+    <a href="http://blog.danquahprep.com/" target="_blank" rel="noopener">
+      <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+      <span>Blog</span>
+    </a>
+  </li>
+</ul>
+
 						</div>
 					</div>
 					<!-- col -->
@@ -56,8 +87,8 @@
 			<div class="footer-copy">
 				<div class="row">
 					<div class="col-12">
-						<p>All ©2022 Copyright by DanquahPrep. All Rights Reserved.</p>
-					</div>
+    <p>All &copy;<?php echo date("Y"); ?> Copyright by DanquahPrep. All Rights Reserved.</p>
+</div>
 					<!-- col -->
 				</div>
 				<!-- row -->

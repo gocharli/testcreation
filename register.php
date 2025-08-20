@@ -70,7 +70,7 @@
 					<section class="register-account"> 
 						<div class="signform">   
 							<div class="right" style="width: 100%;">
-								<div class="headit">
+								<div class="headit mt-4 mb-3">
 									<h4>Login Information</h4>
 								</div>
 								<div class="form">
@@ -91,15 +91,15 @@
 											<div class="col-md-6 pull-left">
 												<input name="confirmPassword" id="confirmPassword" type="password" class="form-field" placeholder="Confirm Password" required />
 											</div>
-											<div class="col-md-6 pull-left">
-												<label>
-													<input type="checkbox" id="remember" name="remember">
-													<span style="color:#666;font-size: 0.9em;"> Show Password</span>
-												</label>
-											</div>
+											<div class="col-md-6 pull-left mb-3">
+											<label>
+												<input type="checkbox" id="remember" name="remember">
+												<span class="text-muted small"> Show Password</span>
+											</label>
+										</div>
 										</div>
 										<br />
-										<div class="headit">
+										<div class="headit mt-0 mb-3">
 											<h4>Personal Information</h4>
 										</div>
 										<div class="row">
@@ -154,7 +154,7 @@
 											</div>
 										</div>
 										<br />
-										<div class="headit">
+										<div class="headit mt-3 mb-3">
 											<h4>User Type</h4>
 										</div>
 										<?php
@@ -180,7 +180,7 @@
 										</div>
 										<div class="clearfix"></div>
 										<br />
-										<div class="headit">
+										<div class="headit mt-3 mb-3">
 											<h4>Security Questions</h4>
 										</div>
 										<div class="row">

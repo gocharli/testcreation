@@ -81,7 +81,7 @@ $parents = get_table_data('tbl_category', 'id!="" AND parent_id="0" AND status="
     border:0 !important;            /* remove default button borders */
     outline:0 !important;           /* remove focus outline */
     box-shadow:none !important;     /* remove any shadows that look like borders */
-    color:var(--nav-text);
+    color:#ffc107;
     cursor:pointer;
     border-radius:10px;
   }
@@ -98,7 +98,7 @@ $parents = get_table_data('tbl_category', 'id!="" AND parent_id="0" AND status="
 
   .as-nav__btn{
     display:inline-flex; align-items:center; gap:8px;
-    font-size:13px; text-transform:uppercase; letter-spacing:.04em;
+    font-size:15px; text-transform:uppercase; letter-spacing:.04em;
     text-decoration:none !important;
     padding:8px 10px;
     transition:background .15s ease, opacity .15s ease;

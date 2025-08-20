@@ -46,19 +46,22 @@
 	<!-- Main Start -->
 	<main>
 		<!-- Home Banner -->
-		<section id="home-box" class="home-banner-02 theme-after-bg theme-bg">
+		<!-- <section id="home-box" class="home-banner-02 theme-after-bg theme-bg">
 			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img class="d-block w-100" src="bannerImg/privacy.jpg" alt="First slide">
-						<!-- container -->
+						
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- / -->
 		<!-- Feature Start -->
-		<section id="" class="section border-top-grey">
+		<section id="" class="section border-top-grey"
+				style="padding-top: 185px !important;"
+
+			>
 			<div class="container">
 				<div class="row justify-content-center title-section m-60px-b sm-m-40px-b">
 					<div class="col-md-8 col-lg-5 text-center">

@@ -88,6 +88,65 @@ ini_set('display_startup_errors', 1);
 			</nav>
 			<!-- Navbar -->     
 		</div>
+		<style>
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .service-card {
+        padding: 40px 25px;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+        border-radius: 12px;
+    }
+
+    .service-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .service-icon {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: rgba(255, 152, 0, 0.1); /* light orange bg */
+        margin: 0 auto 20px;
+        font-size: 32px;
+        color: #ff9800; /* orange icons */
+    }
+
+    .service-card h4 {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .service-card p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    /* Blue gradient */
+    .blue-bg {
+        background: linear-gradient(135deg, #007bff, #00aaff);
+        color: #fff;
+    }
+ .blue-bg .service-icon {
+    background: white;
+    color: #ff9800;
+}
+    /* White background */
+    .white-bg {
+        background: #fff;
+        color: #333;
+    }
+</style>
 	</header>
 	<!-- Header End -->
     <!-- Main Start -->
@@ -182,56 +241,45 @@ ini_set('display_startup_errors', 1);
 					</div>
 					<!-- col -->
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="feature-box-01 m-30px-b">
-							<div class="f-icon"><i class="icon-documents"></i></div>
-							<h4 class="font-alt">SAT</h4>
-							<p>Practice questions and detailed explanations carefully curated by educators with years of experience to provide the highest level of SAT prep.<br /><br /><br /><br /></p>
-							<!--<a class="more-btn" href="javascript:;">Read More <i class="ti-arrow-right"></i></a>-->
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-box-01 m-30px-b">
-							<div class="f-icon"><i class="icon-recycle"></i></div>
-							<h4 class="font-alt">ACT</h4>
-							<p>Experience a superior approach to prep for the ACT with top quality practice questions and in-depth explanations.<br /><br /><br /><br /><br /></p>
-							<!--<a class="more-btn" href="javascript:;">Read More <i class="ti-arrow-right"></i></a>-->
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-box-01 m-30px-b">
-							<div class="f-icon"><i class="icon-genius"></i></div>
-							<h4 class="font-alt">MCAT</h4>
-							<p>Prep the smart way with our comprehensive MCAT question bank developed by experienced professors. Higher scores guaranteed.<br /><br /><br /><br /></p>
-							<!--<a class="more-btn" href="javascript:;">Read More <i class="ti-arrow-right"></i></a>-->
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-box-01 m-30px-b">
-							<div class="f-icon"><i class="icon-documents"></i></div>
-							<h4 class="font-alt">NAPLEX</h4>
-							<p>Prepare for the NAPLEX score you deserve. Use the most up-to-date question bank based on the NAPLEX-blueprint detailed answers.<br /><br /><br /><br /></p>
-							<!--<a class="more-btn" href="javascript:;">Read More <i class="ti-arrow-right"></i></a>-->
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-box-01 m-30px-b sm-m-0px-b">
-							<div class="f-icon"><i class="icon-recycle"></i></div>
-							<h4 class="font-alt">NCLEX</h4>
-							<p>Excel on the NCLEX-RN exam with our comprehensive practice questions with detailed answers. Questions are developed to improve critical thinking skills and are based on the requirements specified by the National Council State Boards of Nursing (NCSBN).</p>
-							<!--<a class="more-btn" href="javascript:;">Read More <i class="ti-arrow-right"></i></a>-->
-						</div>
-					</div>	
-					<div class="col-md-4">
-						<div class="feature-box-01 m-30px-b">
-							<div class="f-icon"><i class="icon-genius"></i></div>
-							<h4 class="font-alt">USMLE</h4>
-							<p>Comprehensive USMLE practice exams (Step 1, Step 2 and Step 3) with detailed explanations developed by seasoned faculty and specialists. Experience a more excellent way to prep.<br /><br /><br /></p>							
-							<!--<a class="more-btn" href="javascript:;">Read More <i class="ti-arrow-right"></i></a>-->
-						</div>
-					</div>								
-				</div>
+				<div class="services-grid">
+            <!-- Row 1 -->
+            <div class="service-card blue-bg">
+                <div class="service-icon"><i class="icon-documents"></i></div>
+                <h4>SAT</h4>
+                <p>Practice questions and detailed explanations carefully curated by educators with years of experience to provide the highest level of SAT prep.</p>
+            </div>
+
+            <div class="service-card white-bg">
+                <div class="service-icon"><i class="icon-recycle"></i></div>
+                <h4>ACT</h4>
+                <p>Experience a superior approach to prep for the ACT with top quality practice questions and in-depth explanations.</p>
+            </div>
+
+            <div class="service-card blue-bg">
+                <div class="service-icon"><i class="icon-genius"></i></div>
+                <h4>MCAT</h4>
+                <p>Prep the smart way with our comprehensive MCAT question bank developed by experienced professors. Higher scores guaranteed.</p>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="service-card white-bg">
+                <div class="service-icon"><i class="icon-documents"></i></div>
+                <h4>NAPLEX</h4>
+                <p>Prepare for the NAPLEX score you deserve. Use the most up-to-date question bank based on the NAPLEX-blueprint detailed answers.</p>
+            </div>
+
+            <div class="service-card blue-bg">
+                <div class="service-icon"><i class="icon-recycle"></i></div>
+                <h4>NCLEX</h4>
+                <p>Excel on the NCLEX-RN exam with our comprehensive practice questions with detailed answers. Based on requirements specified by NCSBN.</p>
+            </div>
+
+            <div class="service-card white-bg">
+                <div class="service-icon"><i class="icon-genius"></i></div>
+                <h4>USMLE</h4>
+                <p>Comprehensive USMLE practice exams (Step 1, Step 2, Step 3) with detailed explanations developed by seasoned faculty and specialists.</p>
+            </div>
+        </div>
 			</div>
 			<!-- container -->
 		</section>
@@ -292,6 +340,7 @@ ini_set('display_startup_errors', 1);
 				<!-- Tab style -->
 			</div>
 		</section>
+		
 		<!--  -->
 	</main>
 	<!-- Main End -->

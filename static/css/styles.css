@@ -219,7 +219,7 @@ img {
 * 03. Title
 -----------------------------------*/
 
-.title-section h2 {
+/* .title-section h2 {
     margin: 0 0 20px;
     padding: 0 0 20px;
     color: #000;
@@ -239,8 +239,28 @@ img {
     bottom: 0;
     margin: auto;
     background: #d63737;
+} */
+
+.title-section {
+    text-align: center; /* center text inside container */
 }
 
+.title-section h2 {
+    display: inline-block; /* shrink underline to text width */
+    font-size: 20px !important;
+    position: relative;
+    padding-bottom: 5px;
+    font-weight: 800;
+}
+
+.title-section h2:after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: 6px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #222281, rgba(34, 34, 129, 0)) 1;
+}
 .title-section h2.left:after {
     right: auto;
 }
@@ -1266,6 +1286,24 @@ img {
 
 .footer-copy p {
     margin: 0;
+}
+/* Footer helpful links: remove white background/tap highlight */
+.footer .fot-link a,
+.footer .fot-link a:visited,
+.footer .fot-link a:hover,
+.footer .fot-link a:focus,
+.footer .fot-link a:active {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none;
+  text-decoration: none;
+}
+
+.footer .fot-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;                 /* spacing between icon and text */
+  -webkit-tap-highlight-color: transparent; /* mobile */
 }
 
 

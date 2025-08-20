@@ -498,7 +498,8 @@
 		
 		var handler = StripeCheckout.configure
 		({
-			 key: 'pk_live_KhnIIETSInHHmpXp7TKZatv4',
+			//  key: 'pk_live_KhnIIETSInHHmpXp7TKZatv4',
+			 key: '<?= STRIPE_PUBLIC_KEY ?>',
 			//key: 'pk_test_Rbm365ztR9996FV8b6Q4Note',
 			image: 'static/img/stripelogo.png',
 			token: function(token) 

@@ -9,7 +9,9 @@
 	
 	require_once('../stripe-php/init.php');
 	
-	 $stripe_api_key = 'sk_live_DQ5ZMg2Vh6QpZL89CWxnA1Lg';       
+	//  $stripe_api_key = 'sk_live_DQ5ZMg2Vh6QpZL89CWxnA1Lg';       
+	  $stripe_api_key = $_ENV['STRIPE_SECRET_KEY'];
+	 ;
 	//$stripe_api_key = 'sk_test_suVHil5M7pfrN2WfpJMAGv6C';       
 	\Stripe\Stripe::setApiKey($stripe_api_key);
 	$customer_email = $functions->get_email_id($_SESSION['student_login']);
