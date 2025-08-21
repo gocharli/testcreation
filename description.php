@@ -1,7 +1,7 @@
 <?php 
 include('include/connection.php');
     include('include/functions.php');
-	 echo $base_url; 
+	
 	$functions = new functions;
 
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";

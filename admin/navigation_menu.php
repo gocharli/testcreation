@@ -174,6 +174,16 @@
 										</li>
 									</ul>
                                 </li>
+								<li class="nav-item pcoded-hasmenu" <?php if($page_act=='8'){ echo 'class="active pcoded-trigger"'; } ?>>
+	<a href="javascript:;" class="waves-effect waves-dark">
+		<span class="pcoded-micon"><i class="feather icon-file-text"></i></span>
+		<span class="pcoded-mtext">Blogs</span>
+	</a>
+	<ul class="pcoded-submenu">
+		<li <?php if($subpage_act=='20'){ echo 'class="active"'; } ?>><a href="blogs" class="waves-effect waves-dark">Blogs List</a></li>
+		<li <?php if($subpage_act=='21'){ echo 'class="active"'; } ?>><a href="add_blog" class="waves-effect waves-dark">Add New Blog</a></li>
+	</ul>
+</li>
 								<?php if($_SESSION['user_type'] == 'admin') {?>
 								<li class="pcoded-hasmenu <?php if(isset($page_act) && $page_act == "8") { echo "active pcoded-trigger";}?>">
 									<a href="javascript:void(0)" class="waves-effect waves-dark">

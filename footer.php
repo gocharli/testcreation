@@ -1,5 +1,14 @@
 <footer class="footer theme-g-bg">
-	<?php 	$base_url = 'https://'.$_SERVER['HTTP_HOST']."/"; ?>
+	
+	<?php 	$host = $_SERVER['HTTP_HOST'];
+
+if ($host === 'localhost') {
+    // Local
+    $base_url = "http://{$host}/testcreation/";
+} else {
+    // Live
+    $base_url = "https://{$host}/";
+} ?>
 		<section class="footer-section">
 			<div class="container">
 				<div class="row">
@@ -38,7 +47,7 @@
     </a>
   </li>
   <li>
-    <a href="http://blog.danquahprep.com/" target="_blank" rel="noopener">
+    <a href="<?= $base_url ?>blogs" target="_blank" rel="noopener">
       <i class="fa fa-angle-double-right" aria-hidden="true"></i>
       <span>Blog</span>
     </a>

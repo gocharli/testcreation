@@ -3197,7 +3197,208 @@
 				
 			}	 
 		break;
+		
 
+//************* BLOG: ADD
+case 'addblog':
+
+    $blogCategory    = $_POST['blogCategory']    ?? '';
+    $blogTitle       = $_POST['blogTitle']       ?? '';
+    $blogDescription = $_POST['blogDescription'] ?? '';
+    $blogDetail      = $_POST['blogDetail']      ?? '';
+    $status          = $_POST['status']          ?? '';
+
+    if(isset($_POST['submit']))
+    {
+        if($blogCategory != '' && $blogTitle != '' && $blogDescription != '' && $blogDetail != '' && $status != '')
+        {
+            // Prevent duplicate blog by title
+            $blog_info = get_table_data('tbl_blogs', 'title="'.addslashes($blogTitle).'" AND is_deleted="0"');
+            if($blog_info == "")
+            {
+                // Create slug from title
+                $slug = generate_slug('tbl_blogs', 'slug', $blogTitle);
+
+                $array_val = array(
+                    "category_id"  => $blogCategory,
+                    "title"        => addslashes($blogTitle),
+                    "slug"         => $slug,
+                    "description"  => addslashes($blogDescription),
+                    "detail"       => addslashes($blogDetail),
+                    "status"       => $status,
+                    "created_by"   => $_SESSION['user_login'],
+                    "created_at"   => date('Y-m-d H:i:s')
+                );
+                $insert_info = insert_table_data($array_val, 'tbl_blogs');
+                $last_id     = last_id();
+
+                if($last_id > 0)
+                {
+                    // Handle blog image upload
+                    if(isset($_FILES['blogImage']) && $_FILES['blogImage']['name'] != '')
+                    {
+                        $file_name = $_FILES['blogImage']['name'];
+                        $file_tmp  = $_FILES['blogImage']['tmp_name'];
+                        $file_ext  = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
+
+                        $allowed_ext = array("jpeg","jpg","png","gif","webp");
+
+                        if(in_array($file_ext, $allowed_ext))
+                        {
+                            $target_dir = dirname(__FILE__) . "/../static/img/blogs/";
+                            if(!is_dir($target_dir)){
+                                mkdir($target_dir, 0777, true);
+                            }
+
+                            $newName = uniqid("blog_") . "." . $file_ext;
+                            $target  = $target_dir . $newName;
+
+                            if(move_uploaded_file($file_tmp, $target))
+                            {
+                                update_table_data('tbl_blogs', "image='".$newName."'", 'id="'.$last_id.'"');
+                            }
+                            else
+                            {
+                                echo json_encode(array('code'=>0, 'message'=>'Unable to upload blog image. Please try again.')); exit;
+                            }
+                        }
+                        else
+                        {
+                            echo json_encode(array('code'=>0, 'message'=>'Extension not allowed. Please choose JPEG, PNG, GIF, or WEBP.')); exit;
+                        }
+                    }
+
+                    echo json_encode(array('code'=>1, 'message'=>'Blog was successfully added.')); exit;
+                }
+            }
+            else
+            {
+                echo json_encode(array('code'=>0, 'message'=>'Blog title already exists.')); exit;
+            }
+        }
+        else
+        {
+            echo json_encode(array('code'=>0, 'message'=>'You must fill in all of the fields.')); exit;
+        }
+    }
+break;
+
+
+
+        //************* BLOG: EDIT
+case 'editblog':
+    if(isset($_REQUEST['id'])){ $id = $_REQUEST['id']; }
+    if(isset($_REQUEST['blogCategory'])){ $blogCategory = $_REQUEST['blogCategory']; }
+    if(isset($_REQUEST['blogTitle'])){ $blogTitle = $_REQUEST['blogTitle']; }
+    if(isset($_REQUEST['blogDescription'])){ $blogDescription = $_REQUEST['blogDescription']; }
+    if(isset($_REQUEST['blogDetail'])){ $blogDetail = $_REQUEST['blogDetail']; }
+    if(isset($_REQUEST['status'])){ $status = $_REQUEST['status']; }
+
+    if(isset($_POST['submit']))
+    {
+        if($id!='' && $blogCategory!='' && $blogTitle!='' && $blogDetail!='' && $status!='')
+        {
+            $blog = get_table_data('tbl_blogs', 'id="'.$id.'"');
+            if($blog != "")
+            {
+                // always handle slug (create if empty or regenerate if title changed)
+                $slug = $blog[0]->slug;
+                if(empty($slug) || $blog[0]->title != $blogTitle) {
+                    $slug = generate_slug('tbl_blogs','slug',$blogTitle,$id);
+                }
+
+                $columns =
+                    "category_id='".$blogCategory."', " .
+                    "title='".addslashes($blogTitle)."', " .
+                    "slug='".$slug."', " .
+                    "description='".addslashes($blogDescription)."', " .
+                    "detail='".addslashes($blogDetail)."', " .
+                    "status='".$status."', " .
+                    "updated_at='".date('Y-m-d H:i:s')."' ";
+                update_table_data('tbl_blogs', $columns, 'id="'.$id.'"');
+
+                // Handle image replacement
+                if(isset($_FILES['blogImage']) && $_FILES['blogImage']['name'] != '')
+                {
+                    $file_name = $_FILES['blogImage']['name'];
+                    $file_tmp  = $_FILES['blogImage']['tmp_name'];
+                    $ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
+                    $allowed = array('jpeg','jpg','png','gif','webp');
+                    if(in_array($ext, $allowed) === true)
+                    {
+                       $target_dir = dirname(__FILE__) . "/../static/img/blogs/";
+                        if(!is_dir($target_dir)) { @mkdir($target_dir, 0777, true); }
+                        $newName = uniqid("blog_") . "." . $ext;
+                        $target = $target_dir . $newName;
+                        if(move_uploaded_file($file_tmp, $target)){
+                            $columns = "image='".$newName."' ";
+                            update_table_data('tbl_blogs', $columns, 'id="'.$id.'"');
+                        } else {
+                            echo json_encode(array('code'=>0, 'message'=>'Unable to upload blog image.')); exit;
+                        }
+                    }
+                }
+
+                echo json_encode(array('code'=>1, 'message'=>'Blog has been updated successfully.')); exit;
+            }
+            else
+            {
+                echo json_encode(array('code'=>0, 'message'=>'system id not exists.')); exit;
+            }
+        }
+        else
+        {
+            echo json_encode(array('code'=>0, 'message'=>'you must fill in all of the required fields.')); exit;
+        }
+    }
+break;
+
+
+        //************* BLOG: SOFT DELETE
+        case 'deleteblog':
+            if(isset($_REQUEST['id'])){ $id = $_REQUEST['id']; }
+            if(isset($_POST['submit']))
+            {
+                if($id!='')
+                {
+                    $blog = get_table_data('tbl_blogs', 'id="'.$id.'"');
+                    if($blog != "")
+                    {
+                        $columns = "is_deleted='1' ";
+                        update_table_data('tbl_blogs', $columns, 'id="'.$id.'"');
+                        echo json_encode(array('code'=>1, 'message'=>'blog deleted successfully.'));
+                        exit;
+                    }
+                    else
+                    {
+                        echo json_encode(array('code'=>0, 'message'=>'system id not exists.'));
+                        exit;
+                    }
+                }
+                else
+                {
+                    echo json_encode(array('code'=>0, 'message'=>'invalid system id.'));
+                    exit;
+                }
+            }
+        break;
 
 	}	
+	function generate_slug($table, $column, $title, $id = null) {
+    // basic slug
+    $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title), '-'));
+
+    // check uniqueness
+    $where = $column."='".$slug."' AND is_deleted='0'";
+    if($id){ 
+        $where .= " AND id!='".$id."'"; // skip current record when editing
+    }
+    $exists = get_table_data($table, $where);
+
+    if($exists != ""){
+        $slug .= '-' . time(); // fallback if slug already exists
+    }
+
+    return $slug;
+}
 ?>
