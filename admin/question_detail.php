@@ -47,6 +47,27 @@
 	include('header.php');
 ?>
 <link rel="stylesheet" href="files/assets/css/radio-button.css">
+<style>
+	/* half width + half viewport height */
+.rich-content .embed-cover.half-vh {
+  width: 50%;
+  max-width: 50%;
+  height: 50vh;         /* 50% of the viewport height */
+  aspect-ratio: auto;
+}
+
+.rich-content .embed-cover.half-vh > video,
+.rich-content .embed-cover.half-vh > iframe,
+.rich-content .embed-cover.half-vh > embed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* remove letterboxing, may crop a bit */
+}
+
+/* optional: center the player */
+.rich-content .center { margin-left: auto; margin-right: auto; }
+
+</style>
 </head>
 <body>
 	<!-- [ Pre-loader ] start -->
@@ -278,11 +299,11 @@
 															?>
 														</div>
 														<div class="form-group row">
-															<label class="col-sm-2 col-form-label"><b>Explanation</b></label>
-															<div class="col-sm-10">
-															   <?php echo $explation;?>
-															</div>
-														</div>
+  <label class="col-sm-2 col-form-label"><b>Explanation</b></label>
+  <div class="col-sm-10 rich-content">
+  <?php echo $explation;?>
+</div>
+</div>
 														<div class="form-group row">
 															<label class="col-sm-2 col-form-label"><b>Hint</b></label>
 															<div class="col-sm-10">
@@ -318,5 +339,24 @@
 	</div>
 	<!-- Required Jquery -->
 	<?php include('script.php');?>
+	<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const MODE = 'cover';            // 'cover' or 'contain'
+  const SIZE = 'half-vh';          // 'half-parent' if you used option A
+
+  document.querySelectorAll('.rich-content iframe, .rich-content video, .rich-content embed')
+    .forEach(function (el) {
+      el.removeAttribute('width');
+      el.removeAttribute('height');
+      var wrap = document.createElement('div');
+      wrap.className = (MODE === 'cover' ? 'embed-cover' : 'embed-contain') + ' ' + SIZE + ' center';
+      el.parentNode.insertBefore(wrap, el);
+      wrap.appendChild(el);
+    });
+});
+</script>
+
+
+
 </body>
 </html>

@@ -41,7 +41,7 @@
   <!-- /Header -->
 
   <!-- Auth Split (no banner) -->
-  <main style="margin-top: 150px;">
+  <main style="margin-top: 150px; margin-bottom: -16px;">
     <section class="auth-wrapper py-5">
       <div class="container">
         <div class="auth-card shadow-lg">

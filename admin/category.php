@@ -67,6 +67,7 @@
 							</li>
 						</ul>
 					</div>
+					
 				</div>
 			</nav>
 			<!-- [ Header ] end -->
@@ -95,6 +96,9 @@
 											</li>
 										</ul>
 									</div>
+									<div class="col-md-4 text-right">
+                                        <a href="main_category" class="btn btn-light">Add Main Category</a>
+                                    </div>
 								</div>
 							</div>
 						</div>

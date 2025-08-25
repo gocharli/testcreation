@@ -878,4 +878,29 @@
 			return $wordCountArr;
 		}
 	}
+	function getLatestBlogs($limit = 4) {
+    global $conn;
+    
+    $sql = "SELECT id, title, image, description, created_at, slug
+            FROM tbl_blogs
+            WHERE status = 'Active' 
+            AND is_deleted = 0
+            ORDER BY created_at DESC
+            LIMIT ?";
+            
+    $stmt = $conn->prepare($sql);
+    if (!$stmt) return [];
+    
+    $stmt->bind_param("i", $limit);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    
+    $blogs = [];
+    while ($row = $result->fetch_assoc()) {
+        $blogs[] = $row;
+    }
+    
+    $stmt->close();
+    return $blogs;
+}
 ?>

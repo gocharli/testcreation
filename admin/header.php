@@ -35,3 +35,4 @@
     <link rel="stylesheet" type="text/css" href="files/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="files/assets/css/pages.css">
 	<link rel="stylesheet" href="files/assets/css/jquery-confirm.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css" />

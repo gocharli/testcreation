@@ -1208,7 +1208,7 @@ img {
 }
 
 .footer-section {
-    padding-top: 80px;
+    padding: 40px 0;
 }
 
 .footer-section h4 {
@@ -1217,6 +1217,7 @@ img {
     margin: 0 0 30px;
     letter-spacing: 1px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .footer-section .footer-text {
@@ -1276,14 +1277,24 @@ img {
     font-size: 14px;
     letter-spacing: 0.066em;
 }
-
+.footer-section p,
+.footer-section ul {
+  margin-bottom: 5px;
+}
 .footer-copy {
     margin-top: 60px;
     border-top: 1px solid rgba(255, 255, 255, .14);
     padding: 25px 0;
     text-align: center;
 }
+.footer-section .footer-copy {
+  padding: 20px 0;
+  text-align: center;
+}
 
+.footer-section .footer-text {
+  line-height: 1.6;
+}
 .footer-copy p {
     margin: 0;
 }

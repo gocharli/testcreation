@@ -41,6 +41,7 @@
 			</nav>
 			<!-- Navbar -->     
 		</div>
+
 	</header>
 	<!-- Header End -->  
 	<!-- Main Start -->
@@ -71,30 +72,26 @@
 			</div>
 			
 		</section> -->
-		<section id="home-box" class="home-banner-02 theme-after-bg theme-bg">
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <!-- Banner background -->
-        <img class="d-block w-100" src="bannerImg/why-choose-us.jpg" alt="First slide">
-
-        <!-- Text overlay -->
-        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center">
-          <h2 class="font-alt text-white" style="margin-bottom: 3.5rem !important;">About Us</h2>
-          <p class="text-white w-75 mx-auto">
-            DanquahPrep is a leading education provider devoted to preparing students to excel in high stakes
-            college and licensing examinations. We are a team of experienced educators who excelled on our
-            standardized exams and know what it takes to replicate this stellar performance among our students.
-            We have also partnered with professionals at the top of their field with the single aim of providing
-            practice exams at a level comparable to what is expected by the various boards.
-          </p>
-          <p class="text-white w-75 mx-auto">
-            Our primary goal is to prepare students for the college and licensing exams so they can become
-            whatever they dream of - nurses, pharmacists, physicians, and so on. Hence our products are designed
-            to offer students a personalized learning experience and constantly help them overcome any academic
-            barriers so they can attain their educational goals.
-          </p>
-        </div>
+		<section id="about-us-hero" class="d-flex align-items-center text-center text-white position-relative" style="background-image: url('bannerImg/why-choose-us.jpg'); background-size: cover; background-position: center; margin-top: 131px;">
+  <div class="position-absolute top-0 bottom-0 start-0 end-0 bg-dark opacity-50" style="z-index: 0;"></div>
+  
+  <div class=" position-relative py-5" style="z-index: 1;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+        <h2 class="font-alt text-white mb-4">About Us</h2>
+        <p class="mx-auto lead">
+          DanquahPrep is a leading education provider devoted to preparing students to excel in high stakes
+          college and licensing examinations. We are a team of experienced educators who excelled on our
+          standardized exams and know what it takes to replicate this stellar performance among our students.
+          We have also partnered with professionals at the top of their field with the single aim of providing
+          practice exams at a level comparable to what is expected by the various boards.
+        </p>
+        <p class="mx-auto lead">
+          Our primary goal is to prepare students for the college and licensing exams so they can become
+          whatever they dream of - nurses, pharmacists, physicians, and so on. Hence our products are designed
+          to offer students a personalized learning experience and constantly help them overcome any academic
+          barriers so they can attain their educational goals.
+        </p>
       </div>
     </div>
   </div>

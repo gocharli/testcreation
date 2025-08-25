@@ -45,6 +45,12 @@
 			</nav>
 			<!-- Navbar -->     
 		</div>
+		<style>
+			.inner-page-header{
+			padding: 70px 0 43px 0 !important;
+			margin-top: 131px;
+			}
+		</style>
 	</header>
 	<!-- Header End -->
 	<!-- Main Start -->

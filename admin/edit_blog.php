@@ -20,6 +20,7 @@
             $detail = $value->detail;
             $image = $value->image;
             $status = $value->status;
+            $tags = $value->tags; 
         }
     }
     else
@@ -168,6 +169,16 @@
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
+    <label class="col-sm-2 col-form-label">Tags</label>
+    <div class="col-sm-10">
+        <input name="blogTags" type="text" id="blogTags" class="form-control"
+               value="<?php echo isset($tags) ? $tags : ''; ?>"
+               placeholder="Enter tags"
+               data-role="tagsinput">
+        <small class="form-text text-muted">Separate tags with commas or press Enter</small>
+    </div>
+</div>
+                                                            <div class="form-group row">
                                                                 <label class="col-sm-2 col-form-label">Blog Image</label>
                                                                 <div class="col-sm-10">
                                                                     <input name="blogImage" id="blogImage" type="file" class="form-control">
@@ -209,6 +220,18 @@
             </div>
         </div>
     </div>
+    <style>
+        .bootstrap-tagsinput {
+            width: 100%;
+        }
+        .bootstrap-tagsinput .tag {
+            margin-right: 2px;
+            color: white;
+            background-color: #0d6efd; /* Use a primary Bootstrap color */
+            padding: 0.2rem 0.6rem;
+            border-radius: 0.25rem;
+        }
+    </style>
     <!-- Required Jquery -->
     <?php include('script.php');?>
        <script src="files/assets/ckeditor/ckeditor.js"></script>
@@ -221,6 +244,9 @@
                
             });
         }
+         $('#blogTags').tagsinput({
+                tagClass: 'badge bg-primary' // Using Bootstrap 5 classes
+            });
         //*************FOR EDIT BLOG
         $( "#main" ).on("submit",function( event )
         {    

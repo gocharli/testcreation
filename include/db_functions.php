@@ -104,6 +104,7 @@
 	}
 	 function create_slug($table, $name, $field = 'slug')
 	{
+		
 		$table = $table;    //Write table name
 		$field = $field;         //Write field name
 		$slug = $name;  //Write title for slug

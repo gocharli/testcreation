@@ -107,7 +107,7 @@ function delete_blog(id)
                                         </ul>
                                     </div>
                                     <div class="col-md-4 text-right">
-                                        <a href="add_blog" class="btn btn-primary">Add New Blog</a>
+                                        <a href="add_blog" class="btn btn-light">Add New Blog</a>
                                     </div>
                                 </div>
                             </div>

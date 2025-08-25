@@ -4,6 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
  
 	include('include/connection.php');
+	include('include/functions.php');
 
 ?>
 <!DOCTYPE html>
@@ -89,6 +90,7 @@ ini_set('display_startup_errors', 1);
 			<!-- Navbar -->     
 		</div>
 		<style>
+			
     .services-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -340,7 +342,75 @@ ini_set('display_startup_errors', 1);
 				<!-- Tab style -->
 			</div>
 		</section>
-		
+		<!-- Latest Blogs Section -->
+<section id="latest-blogs" class="section p-50px-t grey-bg">
+    <div class="container">
+        <div class="row justify-content-center title-section m-60px-b sm-m-40px-b">
+            <div class="col-md-8 col-lg-6 text-center">
+                <h2 class="font-alt">Our Blog</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <?php
+            $latestBlogs = getLatestBlogs(4);
+            
+            if (count($latestBlogs) > 0) :
+                foreach ($latestBlogs as $blog) :
+                    $title = htmlspecialchars($blog['title'] ?? '', ENT_QUOTES, 'UTF-8');
+                    $slug = htmlspecialchars($blog['slug'] ?? '', ENT_QUOTES, 'UTF-8');
+                    $imagePath = 'static/img/blogs/' . htmlspecialchars($blog['image'], ENT_QUOTES, 'UTF-8');
+                    $img = (!empty($blog['image']) && file_exists($imagePath)) 
+                        ? $imagePath 
+                        : 'static/img/blog-placeholder.jpg';
+                    $desc = htmlspecialchars(mb_strimwidth($blog['description'] ?? '', 0, 100, '…', 'UTF-8'), ENT_QUOTES, 'UTF-8');
+                    $dateVal = !empty($blog['created_at']) ? strtotime($blog['created_at']) : time();
+                    $date = date('M d, Y', $dateVal);
+            ?>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card text-white shadow-lg border-0 rounded-3 overflow-hidden h-100">
+                    <a href="blog-details?slug=<?= $slug; ?>">
+                        <img src="<?= $img; ?>" 
+                             class="card-img" 
+                             style="height:180px; object-fit:cover;" 
+                             alt="<?= $title; ?>">
+                    </a>
+                    
+                    <div class="card-img-overlay d-flex flex-column justify-content-end p-3" 
+                         style="background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));">
+                             
+                        <p class="small text-white-50 mb-1"><?= $date; ?></p>
+                        
+                        <h6 class="card-title mb-2">
+                            <a href="blog-details?slug=<?= $slug; ?>" 
+                               class="text-white text-decoration-none fw-semibold">
+                                <?= $title; ?>
+                            </a>
+                        </h6>
+                        
+                        <a href="blog-details?slug=<?= $slug; ?>" 
+                           class="btn btn-sm btn-primary px-3 rounded-pill align-self-start mt-2">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
+            <?php else: ?>
+            <div class="col-12 text-center">
+                <p>No blogs available at the moment.</p>
+            </div>
+            <?php endif; ?>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <a href="blogs" class="btn btn-primary">View All Blogs</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Latest Blogs Section -->
 		<!--  -->
 	</main>
 	<!-- Main End -->

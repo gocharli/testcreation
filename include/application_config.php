@@ -1,16 +1,20 @@
 <?php 
 	define('SITE_TITLE', 'Shhh App');
 	define('NO_OF_RECORDS', 3);
-	
-	if(APPLICATION_MODE == 1)
+	define('STRIPE_SECRET_KEY', $_ENV['STRIPE_SECRET_KEY'] ?? '');
+    define('STRIPE_PUBLIC_KEY', $_ENV['STRIPE_PUBLIC_KEY'] ?? '');
+	error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
+	if(APPLICATION_MODE ==1)
 	{
-		define('SITE_PATH', 'http://localhosttt/'); 
-		define('HTTP_PATH', 'http://localhost/coupon_site/');
-		define('HTTP_PATH_ADMIN', 'http://localhost:81/getshhh/admin/');
-		define('CURRENT_PAGE', SITE_PATH.$_SERVER['REQUEST_URI']);
+
+		 define('SITE_PATH', 'http://localhost/testcreation/'); 
+        define('HTTP_PATH', 'http://localhost/testcreation/');
+        define('HTTP_PATH_ADMIN', 'http://localhost/testcreation/admin/');
+        define('CURRENT_PAGE', SITE_PATH.$_SERVER['REQUEST_URI']);
 	}
 	else if(APPLICATION_MODE == 2)
 	{
+		
 		define('SITE_PATH', 'http://hypertextsol.com/'); 
 		define('HTTP_PATH', 'http://hypertextsol.com');
 		define('HTTP_PATH_ADMIN', 'http://hypertextsol/admin/');

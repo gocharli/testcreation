@@ -41,6 +41,19 @@
 			</nav>
 			<!-- Navbar -->     
 		</div>
+		<style>
+			.row.title-section {
+    padding: 30px 20px;   /* top-bottom 30px, left-right 20px */
+    margin: 40px 0;       /* 40px space above & below */
+    border-radius: 8px;   /* optional: rounded corners */
+}
+.row.title-section:nth-of-type(odd) {
+    background-color: #ffffff; /* white */
+}
+.row.title-section:nth-of-type(even) {
+    background-color: #f7f7f7; /* light gray */
+}
+		</style>
 	</header>
 	<!-- Header End -->  
 	<!-- Main Start -->

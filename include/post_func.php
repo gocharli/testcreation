@@ -159,10 +159,11 @@
 				if($categoryName!='')
 				{
 					$category_info = get_table_data('tbl_category', 'category_name="'.$categoryName.'"');
-					$slug = create_slug('tbl_category' ,'slug' ,  $categoryName);
+					$slug = create_slug('tbl_category' ,  $categoryName ,'slug' );
+					
 					if($category_info == "")
 					{
-						$array_val = array("parent_id" => "", "category_name" => $categoryName, "created_by" => $_SESSION['user_login'], "status" => 'Active', "slug" => $slug ,   "created_date" => date('Y-m-d H:i:s'));
+						$array_val = array("parent_id" => 0, "category_name" => $categoryName, "created_by" => $_SESSION['user_login'], "status" => 'Active', "slug" => $slug ,   "created_date" => date('Y-m-d H:i:s'));
 						$insert_info = insert_table_data($array_val, 'tbl_category');
 						$last_id = last_id();
 						if($last_id > 0)
@@ -246,7 +247,7 @@
 					$category_info = get_table_data('tbl_category', 'id="'.$maincategory.'" AND parent_id = "0" ');
 					if($category_info != "")
 					{
-						$slug = create_slug('tbl_category' ,'slug' ,  $subcategory);
+						$slug = create_slug('tbl_category' ,$subcategory, 'slug' );
 						$array_val = array("parent_id" => $maincategory, "slug" => $slug ,  "category_name" => $subcategory, "created_by" => $_SESSION['user_login'], "status" => 'Active', "created_date" => date('Y-m-d H:i:s'));
 						$insert_info = insert_table_data($array_val, 'tbl_category');
 						$last_id = last_id();
@@ -3207,6 +3208,7 @@ case 'addblog':
     $blogDescription = $_POST['blogDescription'] ?? '';
     $blogDetail      = $_POST['blogDetail']      ?? '';
     $status          = $_POST['status']          ?? '';
+	$blogTags        = $_POST['blogTags']        ?? '';
 
     if(isset($_POST['submit']))
     {
@@ -3225,6 +3227,7 @@ case 'addblog':
                     "slug"         => $slug,
                     "description"  => addslashes($blogDescription),
                     "detail"       => addslashes($blogDetail),
+					"tags"          => addslashes($blogTags),
                     "status"       => $status,
                     "created_by"   => $_SESSION['user_login'],
                     "created_at"   => date('Y-m-d H:i:s')
@@ -3293,6 +3296,7 @@ case 'editblog':
     if(isset($_REQUEST['blogDescription'])){ $blogDescription = $_REQUEST['blogDescription']; }
     if(isset($_REQUEST['blogDetail'])){ $blogDetail = $_REQUEST['blogDetail']; }
     if(isset($_REQUEST['status'])){ $status = $_REQUEST['status']; }
+if(isset($_REQUEST['blogTags'])){ $blogTags = $_REQUEST['blogTags']; }
 
     if(isset($_POST['submit']))
     {
@@ -3312,7 +3316,8 @@ case 'editblog':
                     "title='".addslashes($blogTitle)."', " .
                     "slug='".$slug."', " .
                     "description='".addslashes($blogDescription)."', " .
-                    "detail='".addslashes($blogDetail)."', " .
+                    "detail='".addslashes($blogDetail)."', " . 
+					"tags='".addslashes($blogTags)."', " .
                     "status='".$status."', " .
                     "updated_at='".date('Y-m-d H:i:s')."' ";
                 update_table_data('tbl_blogs', $columns, 'id="'.$id.'"');

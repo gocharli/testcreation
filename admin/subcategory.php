@@ -93,6 +93,9 @@
 											</li>
 										</ul>
 									</div>
+									<div class="col-md-4 text-right">
+                                        <a href="sub_category" class="btn btn-light">Add Sub Category</a>
+                                    </div>
 								</div>
 							</div>
 						</div>
